@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.004940] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.005074] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.005146] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.005192] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.005524] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.005633] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.005720] (py03_action) JobQueued: {'identifier': 'py03_action', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/ros2/ws01_plumbing/install/base_interfaces_demo')])}
+[0.005833] (py03_action) JobStarted: {'identifier': 'py03_action'}
+[0.103687] (-) TimerEvent: {}
+[0.205545] (-) TimerEvent: {}
+[0.311550] (-) TimerEvent: {}
+[0.412735] (-) TimerEvent: {}
+[0.514096] (-) TimerEvent: {}
+[0.614974] (-) TimerEvent: {}
+[0.715574] (-) TimerEvent: {}
+[0.816835] (-) TimerEvent: {}
+[0.918313] (-) TimerEvent: {}
+[1.019515] (-) TimerEvent: {}
+[1.120410] (-) TimerEvent: {}
+[1.221472] (-) TimerEvent: {}
+[1.328397] (-) TimerEvent: {}
+[1.429343] (-) TimerEvent: {}
+[1.530379] (-) TimerEvent: {}
+[1.631355] (-) TimerEvent: {}
+[1.734871] (-) TimerEvent: {}
+[1.841637] (-) TimerEvent: {}
+[1.943298] (-) TimerEvent: {}
+[2.044682] (-) TimerEvent: {}
+[2.145884] (-) TimerEvent: {}
+[2.247225] (-) TimerEvent: {}
+[2.348260] (-) TimerEvent: {}
+[2.449106] (-) TimerEvent: {}
+[2.558324] (-) TimerEvent: {}
+[2.660001] (-) TimerEvent: {}
+[2.761470] (-) TimerEvent: {}
+[2.862629] (-) TimerEvent: {}
+[2.963443] (-) TimerEvent: {}
+[3.064511] (-) TimerEvent: {}
+[3.165627] (-) TimerEvent: {}
+[3.266946] (-) TimerEvent: {}
+[3.368673] (-) TimerEvent: {}
+[3.470394] (-) TimerEvent: {}
+[3.562751] (py03_action) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py03_action', 'build', '--build-base', '/home/ros2/ws01_plumbing/build/py03_action/build', 'install', '--prefix', '/home/ros2/ws01_plumbing/install/py03_action', '--record', '/home/ros2/ws01_plumbing/build/py03_action/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros2/ws01_plumbing/src/py03_action', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'ros2', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros2/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros2', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.70.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '871', 'SYSTEMD_EXEC_PID': '1090', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4763', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ros2', 'JOURNAL_STREAM': '8:21731', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2VB:@/tmp/.ICE-unix/1062,unix/ros2VB:/tmp/.ICE-unix/1062', 'INVOCATION_ID': 'f4df89528e914c268a94d23deb4076b6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VL7OQ1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d207489d79.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros2/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros2/ws01_plumbing/build/py03_action', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2/ws01_plumbing/install/base_interfaces_demo'}, 'shell': False}
+[3.578425] (-) TimerEvent: {}
+[3.679383] (-) TimerEvent: {}
+[3.780658] (-) TimerEvent: {}
+[3.881610] (-) TimerEvent: {}
+[3.983539] (-) TimerEvent: {}
+[4.084267] (-) TimerEvent: {}
+[4.184933] (-) TimerEvent: {}
+[4.285794] (-) TimerEvent: {}
+[4.387080] (-) TimerEvent: {}
+[4.488420] (-) TimerEvent: {}
+[4.566080] (py03_action) StdoutLine: {'line': b'running egg_info\n'}
+[4.569210] (py03_action) StdoutLine: {'line': b'creating ../../build/py03_action/py03_action.egg-info\n'}
+[4.569925] (py03_action) StdoutLine: {'line': b'writing ../../build/py03_action/py03_action.egg-info/PKG-INFO\n'}
+[4.571534] (py03_action) StdoutLine: {'line': b'writing dependency_links to ../../build/py03_action/py03_action.egg-info/dependency_links.txt\n'}
+[4.572867] (py03_action) StdoutLine: {'line': b'writing entry points to ../../build/py03_action/py03_action.egg-info/entry_points.txt\n'}
+[4.573345] (py03_action) StdoutLine: {'line': b'writing requirements to ../../build/py03_action/py03_action.egg-info/requires.txt\n'}
+[4.573566] (py03_action) StdoutLine: {'line': b'writing top-level names to ../../build/py03_action/py03_action.egg-info/top_level.txt\n'}
+[4.574206] (py03_action) StdoutLine: {'line': b"writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'\n"}
+[4.580283] (py03_action) StdoutLine: {'line': b"reading manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'\n"}
+[4.588758] (-) TimerEvent: {}
+[4.592064] (py03_action) StdoutLine: {'line': b"writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'\n"}
+[4.593065] (py03_action) StdoutLine: {'line': b'running build\n'}
+[4.593327] (py03_action) StdoutLine: {'line': b'running build_py\n'}
+[4.593782] (py03_action) StdoutLine: {'line': b'creating /home/ros2/ws01_plumbing/build/py03_action/build\n'}
+[4.594632] (py03_action) StdoutLine: {'line': b'creating /home/ros2/ws01_plumbing/build/py03_action/build/lib\n'}
+[4.594815] (py03_action) StdoutLine: {'line': b'creating /home/ros2/ws01_plumbing/build/py03_action/build/lib/py03_action\n'}
+[4.595932] (py03_action) StdoutLine: {'line': b'copying py03_action/__init__.py -> /home/ros2/ws01_plumbing/build/py03_action/build/lib/py03_action\n'}
+[4.596178] (py03_action) StdoutLine: {'line': b'copying py03_action/demo02_action_client_py.py -> /home/ros2/ws01_plumbing/build/py03_action/build/lib/py03_action\n'}
+[4.597509] (py03_action) StdoutLine: {'line': b'copying py03_action/demo01_action_server_py.py -> /home/ros2/ws01_plumbing/build/py03_action/build/lib/py03_action\n'}
+[4.598050] (py03_action) StdoutLine: {'line': b'running install\n'}
+[4.613279] (py03_action) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.613595] (py03_action) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.614385] (py03_action) StdoutLine: {'line': b'running install_lib\n'}
+[4.617936] (py03_action) StdoutLine: {'line': b'creating /home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action\n'}
+[4.619046] (py03_action) StdoutLine: {'line': b'copying /home/ros2/ws01_plumbing/build/py03_action/build/lib/py03_action/__init__.py -> /home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action\n'}
+[4.621475] (py03_action) StdoutLine: {'line': b'copying /home/ros2/ws01_plumbing/build/py03_action/build/lib/py03_action/demo02_action_client_py.py -> /home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action\n'}
+[4.622624] (py03_action) StdoutLine: {'line': b'copying /home/ros2/ws01_plumbing/build/py03_action/build/lib/py03_action/demo01_action_server_py.py -> /home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action\n'}
+[4.624933] (py03_action) StdoutLine: {'line': b'byte-compiling /home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/__init__.py to __init__.cpython-310.pyc\n'}
+[4.626808] (py03_action) StdoutLine: {'line': b'byte-compiling /home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo02_action_client_py.py to demo02_action_client_py.cpython-310.pyc\n'}
+[4.628091] (py03_action) StdoutLine: {'line': b'byte-compiling /home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo01_action_server_py.py to demo01_action_server_py.cpython-310.pyc\n'}
+[4.629215] (py03_action) StdoutLine: {'line': b'running install_data\n'}
+[4.630815] (py03_action) StdoutLine: {'line': b'creating /home/ros2/ws01_plumbing/install/py03_action/share/ament_index\n'}
+[4.631040] (py03_action) StdoutLine: {'line': b'creating /home/ros2/ws01_plumbing/install/py03_action/share/ament_index/resource_index\n'}
+[4.631181] (py03_action) StdoutLine: {'line': b'creating /home/ros2/ws01_plumbing/install/py03_action/share/ament_index/resource_index/packages\n'}
+[4.632043] (py03_action) StdoutLine: {'line': b'copying resource/py03_action -> /home/ros2/ws01_plumbing/install/py03_action/share/ament_index/resource_index/packages\n'}
+[4.632894] (py03_action) StdoutLine: {'line': b'copying package.xml -> /home/ros2/ws01_plumbing/install/py03_action/share/py03_action\n'}
+[4.633675] (py03_action) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.643981] (py03_action) StdoutLine: {'line': b'Copying ../../build/py03_action/py03_action.egg-info to /home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info\n'}
+[4.647993] (py03_action) StdoutLine: {'line': b'running install_scripts\n'}
+[4.689450] (-) TimerEvent: {}
+[4.758588] (py03_action) StdoutLine: {'line': b'Installing demo01_action_server_py script to /home/ros2/ws01_plumbing/install/py03_action/lib/py03_action\n'}
+[4.760242] (py03_action) StdoutLine: {'line': b'Installing demo02_action_client_py script to /home/ros2/ws01_plumbing/install/py03_action/lib/py03_action\n'}
+[4.762892] (py03_action) StdoutLine: {'line': b"writing list of installed files to '/home/ros2/ws01_plumbing/build/py03_action/install.log'\n"}
+[4.790083] (-) TimerEvent: {}
+[4.874857] (py03_action) CommandEnded: {'returncode': 0}
+[4.890649] (-) TimerEvent: {}
+[4.992396] (-) TimerEvent: {}
+[5.047899] (py03_action) JobEnded: {'identifier': 'py03_action', 'rc': 0}
+[5.050237] (-) EventReactorShutdown: {}

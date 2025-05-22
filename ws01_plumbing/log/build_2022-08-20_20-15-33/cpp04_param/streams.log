@@ -1,0 +1,77 @@
+[0.072s] Invoking command in '/home/ros2/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_server[0m
+[0.344s] [ 33%] Built target demo00_param
+[0.344s] [ 66%] Built target demo02_param_client
+[0.385s] [ 83%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[10.427s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.429s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[10.429s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.429s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.429s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.430s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.432s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.432s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:15[m[K:
+[10.433s] [01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:[m[K In member function ‘[01m[Kvoid ParamServer::get_param()[m[K’:
+[10.433s] [01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:45:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.433s]    45 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"包含car_name吗？%s"[m[K,[32m[Kthis->has_parameter("car_name")[m[K);
+[10.433s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.434s]       |                                                                                [32m[K|[m[K
+[10.434s]       |                                                                                [32m[Kint[m[K
+[10.441s] [01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:45:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.442s]    45 |         RCLCPP_INFO(this->get_logger(),"包含car_name吗？[01;36m[K%s[m[K",this->has_parameter("car_name"));
+[10.443s]       |                                                         [01;36m[K~^[m[K
+[10.444s]       |                                                          [01;36m[K|[m[K
+[10.444s]       |                                                          [01;36m[Kchar*[m[K
+[10.445s]       |                                                         [32m[K%d[m[K
+[10.447s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[10.449s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.449s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.450s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.453s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:15[m[K:
+[10.453s] [01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:46:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.454s]    46 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"包含height吗？%s"[m[K,[32m[Kthis->has_parameter("height")[m[K);
+[10.454s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.455s]       |                                                                              [32m[K|[m[K
+[10.455s]       |                                                                              [32m[Kint[m[K
+[10.455s] [01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:46:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.456s]    46 |         RCLCPP_INFO(this->get_logger(),"包含height吗？[01;36m[K%s[m[K",this->has_parameter("height"));
+[10.456s]       |                                                       [01;36m[K~^[m[K
+[10.457s]       |                                                        [01;36m[K|[m[K
+[10.457s]       |                                                        [01;36m[Kchar*[m[K
+[10.457s]       |                                                       [32m[K%d[m[K
+[13.042s] [100%] [32m[1mLinking CXX executable demo01_param_server[0m
+[13.482s] [100%] Built target demo01_param_server
+[13.533s] Invoked command in '/home/ros2/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[13.777s] Invoking command in '/home/ros2/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plumbing/build/cpp04_param
+[13.812s] -- Install configuration: ""
+[13.817s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[13.818s] -- Installing: /home/ros2/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[13.821s] -- Set runtime path of "/home/ros2/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server" to ""
+[13.821s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
+[13.822s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[13.822s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[13.829s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[13.830s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[13.831s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[13.832s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[13.833s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[13.834s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[13.835s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[13.836s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[13.836s] -- Installing: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[13.837s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[13.838s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[13.838s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[13.839s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[13.853s] Invoked command in '/home/ros2/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws01_plumbing/build/cpp04_param

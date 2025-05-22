@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target exer04_action_server[0m
+[ 20%] Built target exer01_pub_sub
+[ 40%] Built target exer02_server
+[ 60%] Built target exer03_client
+[ 70%] [32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o[0m
+[ 90%] Built target exer05_action_client
+[01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In member function ‘[01m[Kvoid Exer04ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav> >)[m[K’:
+[01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:114:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+  114 |             float distance = std[01;31m[K:[m[K;sqrt(distance_x * distance_x + distance_y * distance_y);
+      |                                 [01;31m[K^[m[K
+[01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In member function ‘[01m[Kvoid Exer04ActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav> >)[m[K’:
+[01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:149:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::_Bind_helper<false, void (Exer04ActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav> >), Exer04ActionServer*, std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav> >&>::type[m[K’ has no member named ‘[01m[Kdetach[m[K’
+  149 |         std::thread(std::bind(&Exer04ActionServer::execute,this,goal_handle).[01;31m[Kdetach[m[K();
+      |                                                                              [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/exer04_action_server.dir/build.make:76：CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:223：CMakeFiles/exer04_action_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

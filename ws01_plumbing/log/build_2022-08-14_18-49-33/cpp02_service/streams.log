@@ -1,0 +1,152 @@
+[0.068s] Invoking command in '/home/ros2/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[0.208s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[0.264s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[6.549s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.549s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.550s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.550s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.550s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.550s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.550s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:22[m[K:
+[6.550s] [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[6.550s] [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:60:39:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.551s]    60 |         RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K,"连接失败!");
+[6.551s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.551s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.551s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.551s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.551s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.551s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.552s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.552s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.552s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.552s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.553s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.553s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.553s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:22[m[K:
+[6.553s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.553s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.553s]       |                 [01;36m[K^~~~~~[m[K
+[6.553s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.555s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:22[m[K:
+[6.555s] [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:60:39:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.555s]    60 |         RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K,"连接失败!");
+[6.555s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.556s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.558s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.558s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:22[m[K:
+[6.558s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.559s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.559s]       |                 [01;36m[K^~~~~~[m[K
+[6.559s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.559s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.559s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.559s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.563s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.565s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.565s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.565s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:22[m[K:
+[6.566s] [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:60:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.566s]    60 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(),"连接失败!");
+[6.566s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.567s] [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.567s]    60 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(),"连接失败!");
+[6.567s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.568s] [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:60:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.569s]    60 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(),"连接失败!");
+[6.569s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.569s] [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.570s]    60 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(),"连接失败!");
+[6.570s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.570s] [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:60:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.571s]    60 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(),"连接失败!");
+[6.571s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.572s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.577s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:22[m[K:
+[6.577s] [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:60:39:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.578s]    60 |         RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K,"连接失败!");
+[6.578s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.578s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.582s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:22[m[K:
+[6.583s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.583s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.584s]       |                 [01;36m[K^~~~~~[m[K
+[6.584s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.586s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.586s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.586s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.587s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.587s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.588s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.588s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:22[m[K:
+[6.588s] [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:60:39:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.589s]    60 |         RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K,"连接失败!");
+[6.589s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.589s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.604s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:22[m[K:
+[6.604s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.604s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.605s]       |                 [01;36m[K^~~~~~[m[K
+[8.161s] gmake[2]: *** [CMakeFiles/demo01_server.dir/build.make:76：CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o] 错误 1
+[8.162s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_server.dir/all] 错误 2
+[8.163s] gmake: *** [Makefile:146：all] 错误 2
+[8.171s] Invoked command in '/home/ros2/ws01_plumbing/build/cpp02_service' returned '2': CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp02_service -- -j4 -l4

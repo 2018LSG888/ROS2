@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000450] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000584] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000629] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000665] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000697] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000904] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000950] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.001007] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.001095] (cpp04_param) JobQueued: {'identifier': 'cpp04_param', 'dependencies': OrderedDict()}
+[0.001154] (cpp04_param) JobStarted: {'identifier': 'cpp04_param'}
+[0.094969] (-) TimerEvent: {}
+[0.197385] (-) TimerEvent: {}
+[0.228163] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'cmake'}
+[0.244081] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'build'}
+[0.244419] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ws01_plumbing/build/cpp04_param', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ws01_plumbing/build/cpp04_param', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '893'), ('SYSTEMD_EXEC_PID', '1100'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4778'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:20136'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1076,unix/ros2VB:/tmp/.ICE-unix/1076'), ('INVOCATION_ID', '1a4a6274cc094ea9b352c5a6a1ce956c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9XF8Q1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d207489d79.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws01_plumbing/build/cpp04_param'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble')]), 'shell': False}
+[0.299045] (-) TimerEvent: {}
+[0.400296] (-) TimerEvent: {}
+[0.501608] (-) TimerEvent: {}
+[0.602680] (-) TimerEvent: {}
+[0.703751] (-) TimerEvent: {}
+[0.715407] (cpp04_param) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_param_server\x1b[0m\n'}
+[0.732754] (cpp04_param) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_param_client\x1b[0m\n'}
+[0.738524] (cpp04_param) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo00_param\x1b[0m\n'}
+[0.804343] (-) TimerEvent: {}
+[0.814915] (cpp04_param) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o\x1b[0m\n'}
+[0.819353] (cpp04_param) StdoutLine: {'line': b'[ 50%] Built target demo00_param\n'}
+[0.852582] (cpp04_param) StdoutLine: {'line': b'[ 83%] Built target demo02_param_client\n'}
+[0.904708] (-) TimerEvent: {}
+[1.005934] (-) TimerEvent: {}
+[1.106729] (-) TimerEvent: {}
+[1.208021] (-) TimerEvent: {}
+[1.309498] (-) TimerEvent: {}
+[1.411070] (-) TimerEvent: {}
+[1.512202] (-) TimerEvent: {}
+[1.614683] (-) TimerEvent: {}
+[1.715661] (-) TimerEvent: {}
+[1.818210] (-) TimerEvent: {}
+[1.919662] (-) TimerEvent: {}
+[2.020968] (-) TimerEvent: {}
+[2.122499] (-) TimerEvent: {}
+[2.224620] (-) TimerEvent: {}
+[2.325866] (-) TimerEvent: {}
+[2.427367] (-) TimerEvent: {}
+[2.528613] (-) TimerEvent: {}
+[2.629860] (-) TimerEvent: {}
+[2.733250] (-) TimerEvent: {}
+[2.834239] (-) TimerEvent: {}
+[2.936137] (-) TimerEvent: {}
+[3.037414] (-) TimerEvent: {}
+[3.139651] (-) TimerEvent: {}
+[3.241147] (-) TimerEvent: {}
+[3.343229] (-) TimerEvent: {}
+[3.444766] (-) TimerEvent: {}
+[3.545955] (-) TimerEvent: {}
+[3.648099] (-) TimerEvent: {}
+[3.749353] (-) TimerEvent: {}
+[3.851723] (-) TimerEvent: {}
+[3.952435] (-) TimerEvent: {}
+[4.054032] (-) TimerEvent: {}
+[4.155946] (-) TimerEvent: {}
+[4.257432] (-) TimerEvent: {}
+[4.358665] (-) TimerEvent: {}
+[4.460691] (-) TimerEvent: {}
+[4.562730] (-) TimerEvent: {}
+[4.663844] (-) TimerEvent: {}
+[4.765360] (-) TimerEvent: {}
+[4.866134] (-) TimerEvent: {}
+[4.967871] (-) TimerEvent: {}
+[5.069297] (-) TimerEvent: {}
+[5.171805] (-) TimerEvent: {}
+[5.273452] (-) TimerEvent: {}
+[5.376388] (-) TimerEvent: {}
+[5.477575] (-) TimerEvent: {}
+[5.579912] (-) TimerEvent: {}
+[5.681552] (-) TimerEvent: {}
+[5.782962] (-) TimerEvent: {}
+[5.884328] (-) TimerEvent: {}
+[5.985539] (-) TimerEvent: {}
+[6.087048] (-) TimerEvent: {}
+[6.188932] (-) TimerEvent: {}
+[6.291642] (-) TimerEvent: {}
+[6.393939] (-) TimerEvent: {}
+[6.495787] (-) TimerEvent: {}
+[6.596815] (-) TimerEvent: {}
+[6.697720] (-) TimerEvent: {}
+[6.798812] (-) TimerEvent: {}
+[6.899939] (-) TimerEvent: {}
+[7.001786] (-) TimerEvent: {}
+[7.104157] (-) TimerEvent: {}
+[7.205085] (-) TimerEvent: {}
+[7.306982] (-) TimerEvent: {}
+[7.408209] (-) TimerEvent: {}
+[7.509181] (-) TimerEvent: {}
+[7.610207] (-) TimerEvent: {}
+[7.711911] (-) TimerEvent: {}
+[7.813379] (-) TimerEvent: {}
+[7.915114] (-) TimerEvent: {}
+[8.015991] (-) TimerEvent: {}
+[8.117285] (-) TimerEvent: {}
+[8.218966] (-) TimerEvent: {}
+[8.320219] (-) TimerEvent: {}
+[8.421151] (-) TimerEvent: {}
+[8.522317] (-) TimerEvent: {}
+[8.624082] (-) TimerEvent: {}
+[8.725225] (-) TimerEvent: {}
+[8.826720] (-) TimerEvent: {}
+[8.927564] (-) TimerEvent: {}
+[9.028448] (-) TimerEvent: {}
+[9.129861] (-) TimerEvent: {}
+[9.231522] (-) TimerEvent: {}
+[9.332615] (-) TimerEvent: {}
+[9.433772] (-) TimerEvent: {}
+[9.535794] (-) TimerEvent: {}
+[9.637089] (-) TimerEvent: {}
+[9.738946] (-) TimerEvent: {}
+[9.839898] (-) TimerEvent: {}
+[9.941123] (-) TimerEvent: {}
+[10.042033] (-) TimerEvent: {}
+[10.143531] (-) TimerEvent: {}
+[10.228203] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, const char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.228603] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:52:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.229384] (cpp04_param) StderrLine: {'line': b'   52 |     \x1b[01;31m\x1b[Knode\x1b[m\x1b[K->declare_param();\n'}
+[10.230129] (cpp04_param) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.244116] (-) TimerEvent: {}
+[10.345448] (-) TimerEvent: {}
+[10.446230] (-) TimerEvent: {}
+[10.547978] (-) TimerEvent: {}
+[10.649133] (-) TimerEvent: {}
+[10.750640] (-) TimerEvent: {}
+[10.851665] (-) TimerEvent: {}
+[10.952427] (-) TimerEvent: {}
+[11.053357] (-) TimerEvent: {}
+[11.154254] (-) TimerEvent: {}
+[11.256052] (-) TimerEvent: {}
+[11.357122] (-) TimerEvent: {}
+[11.459930] (-) TimerEvent: {}
+[11.561432] (-) TimerEvent: {}
+[11.663415] (-) TimerEvent: {}
+[11.764596] (-) TimerEvent: {}
+[11.865572] (-) TimerEvent: {}
+[11.967079] (-) TimerEvent: {}
+[12.069613] (-) TimerEvent: {}
+[12.073489] (cpp04_param) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_param_server.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[12.075894] (cpp04_param) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167\xef\xbc\x9aCMakeFiles/demo01_param_server.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[12.076795] (cpp04_param) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[12.082335] (cpp04_param) CommandEnded: {'returncode': 2}
+[12.170204] (-) TimerEvent: {}
+[12.271827] (-) TimerEvent: {}
+[12.339948] (cpp04_param) JobEnded: {'identifier': 'cpp04_param', 'rc': 2}
+[12.344361] (-) EventReactorShutdown: {}

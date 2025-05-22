@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.010965] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.011100] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.011145] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.011180] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.011217] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.011317] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.011350] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.011380] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.011487] (cpp04_param) JobQueued: {'identifier': 'cpp04_param', 'dependencies': OrderedDict()}
+[0.011529] (cpp04_param) JobStarted: {'identifier': 'cpp04_param'}
+[0.041483] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'cmake'}
+[0.044717] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'build'}
+[0.045076] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ws01_plumbing/build/cpp04_param', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ws01_plumbing/build/cpp04_param', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '881'), ('SYSTEMD_EXEC_PID', '1102'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3689'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:21155'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1079,unix/ros2VB:/tmp/.ICE-unix/1079'), ('INVOCATION_ID', 'aa1d8b85f3544a9c81bd01df26ec1054'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1XN7Q1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d207489d79.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws01_plumbing/build/cpp04_param'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble')]), 'shell': False}
+[0.101853] (-) TimerEvent: {}
+[0.186765] (cpp04_param) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_param_client\x1b[0m\n'}
+[0.202398] (-) TimerEvent: {}
+[0.241686] (cpp04_param) StdoutLine: {'line': b'[ 33%] Built target demo01_param_server\n'}
+[0.249853] (cpp04_param) StdoutLine: {'line': b'[ 66%] Built target demo00_param\n'}
+[0.262001] (cpp04_param) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o\x1b[0m\n'}
+[0.302940] (-) TimerEvent: {}
+[0.404470] (-) TimerEvent: {}
+[0.505781] (-) TimerEvent: {}
+[0.606455] (-) TimerEvent: {}
+[0.707387] (-) TimerEvent: {}
+[0.808340] (-) TimerEvent: {}
+[0.909861] (-) TimerEvent: {}
+[1.011052] (-) TimerEvent: {}
+[1.112935] (-) TimerEvent: {}
+[1.213972] (-) TimerEvent: {}
+[1.315037] (-) TimerEvent: {}
+[1.416561] (-) TimerEvent: {}
+[1.517768] (-) TimerEvent: {}
+[1.618917] (-) TimerEvent: {}
+[1.720011] (-) TimerEvent: {}
+[1.820879] (-) TimerEvent: {}
+[1.921792] (-) TimerEvent: {}
+[2.022881] (-) TimerEvent: {}
+[2.123778] (-) TimerEvent: {}
+[2.224838] (-) TimerEvent: {}
+[2.325718] (-) TimerEvent: {}
+[2.427012] (-) TimerEvent: {}
+[2.528211] (-) TimerEvent: {}
+[2.628942] (-) TimerEvent: {}
+[2.729936] (-) TimerEvent: {}
+[2.831238] (-) TimerEvent: {}
+[2.932229] (-) TimerEvent: {}
+[3.033489] (-) TimerEvent: {}
+[3.135334] (-) TimerEvent: {}
+[3.236059] (-) TimerEvent: {}
+[3.337546] (-) TimerEvent: {}
+[3.438355] (-) TimerEvent: {}
+[3.539188] (-) TimerEvent: {}
+[3.640109] (-) TimerEvent: {}
+[3.741089] (-) TimerEvent: {}
+[3.842167] (-) TimerEvent: {}
+[3.943317] (-) TimerEvent: {}
+[4.044311] (-) TimerEvent: {}
+[4.145646] (-) TimerEvent: {}
+[4.246362] (-) TimerEvent: {}
+[4.348032] (-) TimerEvent: {}
+[4.448723] (-) TimerEvent: {}
+[4.549596] (-) TimerEvent: {}
+[4.650451] (-) TimerEvent: {}
+[4.751468] (-) TimerEvent: {}
+[4.852721] (-) TimerEvent: {}
+[4.954928] (-) TimerEvent: {}
+[5.055454] (-) TimerEvent: {}
+[5.156524] (-) TimerEvent: {}
+[5.258063] (-) TimerEvent: {}
+[5.359462] (-) TimerEvent: {}
+[5.460642] (-) TimerEvent: {}
+[5.561905] (-) TimerEvent: {}
+[5.662905] (-) TimerEvent: {}
+[5.764374] (-) TimerEvent: {}
+[5.865536] (-) TimerEvent: {}
+[5.966429] (-) TimerEvent: {}
+[6.067148] (-) TimerEvent: {}
+[6.168484] (-) TimerEvent: {}
+[6.270159] (-) TimerEvent: {}
+[6.371164] (-) TimerEvent: {}
+[6.472965] (-) TimerEvent: {}
+[6.557102] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KParamClient::ParamClient()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.558378] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:20:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AsyncParametersClient::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::AsyncParametersClient>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::SyncParametersClient>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.559191] (cpp04_param) StderrLine: {'line': b'   20 |         paramClient = std::make_shared<rclcpp::SyncParametersClient>(this,"minimal_param_server"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.559415] (cpp04_param) StderrLine: {'line': b'      |                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.572214] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[6.572514] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.573501] (-) TimerEvent: {}
+[6.573669] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:12\x1b[m\x1b[K:\n'}
+[6.573811] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::AsyncParametersClient]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.573941] (cpp04_param) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[6.574233] (cpp04_param) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.574370] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.574485] (cpp04_param) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::SyncParametersClient>&; _Tp = rclcpp::AsyncParametersClient]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.574607] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::AsyncParametersClient>::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::AsyncParametersClient>::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::SyncParametersClient]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.574740] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:20:97:\x1b[m\x1b[K   required from here\n'}
+[6.574855] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::AsyncParametersClient>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.574978] (cpp04_param) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[6.575265] (cpp04_param) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.575385] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::AsyncParametersClient]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.575503] (cpp04_param) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[6.575618] (cpp04_param) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.575730] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.575854] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:20:97:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::SyncParametersClient>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.575973] (cpp04_param) StderrLine: {'line': b'   20 |         paramClient = std::make_shared<rclcpp::SyncParametersClient>(this,"minimal_param_server"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.576264] (cpp04_param) StderrLine: {'line': b'      |                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.576378] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[6.576500] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.576613] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:12\x1b[m\x1b[K:\n'}
+[6.576724] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::AsyncParametersClient]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.576860] (cpp04_param) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[6.577138] (cpp04_param) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.577641] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.577772] (cpp04_param) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::SyncParametersClient>; _Tp = rclcpp::AsyncParametersClient]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.577892] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::AsyncParametersClient>::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::AsyncParametersClient>::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::SyncParametersClient]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.578188] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:20:97:\x1b[m\x1b[K   required from here\n'}
+[6.578310] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::AsyncParametersClient>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.578504] (cpp04_param) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[6.578691] (cpp04_param) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.578823] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::AsyncParametersClient]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.579113] (cpp04_param) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[6.579244] (cpp04_param) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.579420] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.579809] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:20:97:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::SyncParametersClient>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.580197] (cpp04_param) StderrLine: {'line': b'   20 |         paramClient = std::make_shared<rclcpp::SyncParametersClient>(this,"minimal_param_server"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.580534] (cpp04_param) StderrLine: {'line': b'      |                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.580657] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[6.580769] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.581052] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:12\x1b[m\x1b[K:\n'}
+[6.582554] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::AsyncParametersClient]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.583037] (cpp04_param) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[6.583452] (cpp04_param) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.583670] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::SyncParametersClient>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::AsyncParametersClient>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.584100] (cpp04_param) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[6.584229] (cpp04_param) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.584431] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::AsyncParametersClient]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.584643] (cpp04_param) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[6.584841] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.584976] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::SyncParametersClient>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::AsyncParametersClient>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.585179] (cpp04_param) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[6.586070] (cpp04_param) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.600990] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, const char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.602074] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:50:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.602334] (cpp04_param) StderrLine: {'line': b'   50 |         \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[6.602724] (cpp04_param) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.602858] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:53:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.602983] (cpp04_param) StderrLine: {'line': b'   53 |     \x1b[01;31m\x1b[Krclcpp::spin()\x1b[m\x1b[K;\n'}
+[6.603184] (cpp04_param) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[6.603309] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.603632] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:12\x1b[m\x1b[K:\n'}
+[6.603882] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.604019] (cpp04_param) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[6.604137] (cpp04_param) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.607747] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[6.608019] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.608175] (cpp04_param) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[6.608548] (cpp04_param) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.608678] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[6.673941] (-) TimerEvent: {}
+[6.775365] (-) TimerEvent: {}
+[6.876368] (-) TimerEvent: {}
+[6.977465] (-) TimerEvent: {}
+[7.078248] (-) TimerEvent: {}
+[7.179134] (-) TimerEvent: {}
+[7.280068] (-) TimerEvent: {}
+[7.381539] (-) TimerEvent: {}
+[7.482563] (-) TimerEvent: {}
+[7.583294] (-) TimerEvent: {}
+[7.684100] (-) TimerEvent: {}
+[7.785002] (-) TimerEvent: {}
+[7.872162] (cpp04_param) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo02_param_client.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.875247] (cpp04_param) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193\xef\xbc\x9aCMakeFiles/demo02_param_client.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.883345] (cpp04_param) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.883579] (cpp04_param) CommandEnded: {'returncode': 2}
+[7.885484] (-) TimerEvent: {}
+[7.987178] (-) TimerEvent: {}
+[8.100204] (-) TimerEvent: {}
+[8.139362] (cpp04_param) JobEnded: {'identifier': 'cpp04_param', 'rc': 2}
+[8.151131] (-) EventReactorShutdown: {}

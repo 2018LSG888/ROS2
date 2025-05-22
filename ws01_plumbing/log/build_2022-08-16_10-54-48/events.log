@@ -1,0 +1,440 @@
+[0.000000] (-) TimerEvent: {}
+[0.002068] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.002160] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.002185] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.002276] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.002327] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.002349] (haha) JobQueued: {'identifier': 'haha', 'dependencies': OrderedDict()}
+[0.002370] (haha) JobStarted: {'identifier': 'haha'}
+[0.079702] (haha) JobProgress: {'identifier': 'haha', 'progress': 'cmake'}
+[0.080540] (haha) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/ws01_plumbing/src/haha', '-DCMAKE_INSTALL_PREFIX=/home/ros2/ws01_plumbing/install/haha'], 'cwd': '/home/ros2/ws01_plumbing/build/haha', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '870'), ('SYSTEMD_EXEC_PID', '1075'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3092'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:20050'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1030,unix/ros2VB:/tmp/.ICE-unix/1030'), ('INVOCATION_ID', 'ca48cbf331a14ef68b64b99bbb6bf7ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O9TZQ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d207489d79.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws01_plumbing/build/haha'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100846] (-) TimerEvent: {}
+[0.201168] (-) TimerEvent: {}
+[0.302024] (-) TimerEvent: {}
+[0.403664] (-) TimerEvent: {}
+[0.505367] (-) TimerEvent: {}
+[0.606373] (-) TimerEvent: {}
+[0.706996] (-) TimerEvent: {}
+[0.808287] (-) TimerEvent: {}
+[0.909107] (-) TimerEvent: {}
+[1.009604] (-) TimerEvent: {}
+[1.105663] (haha) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[1.109963] (-) TimerEvent: {}
+[1.210907] (-) TimerEvent: {}
+[1.312888] (-) TimerEvent: {}
+[1.413777] (-) TimerEvent: {}
+[1.454053] (haha) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.488579] (haha) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.514140] (-) TimerEvent: {}
+[1.614933] (-) TimerEvent: {}
+[1.672409] (haha) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.680161] (haha) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.681639] (haha) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.695601] (haha) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.705116] (haha) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.715162] (-) TimerEvent: {}
+[1.815806] (-) TimerEvent: {}
+[1.861552] (haha) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.870475] (haha) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.870902] (haha) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.871373] (haha) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.917381] (-) TimerEvent: {}
+[2.017950] (-) TimerEvent: {}
+[2.046968] (haha) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.118137] (-) TimerEvent: {}
+[2.218537] (-) TimerEvent: {}
+[2.319035] (-) TimerEvent: {}
+[2.343253] (haha) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter \n'}
+[2.424431] (-) TimerEvent: {}
+[2.525084] (-) TimerEvent: {}
+[2.625608] (-) TimerEvent: {}
+[2.667338] (haha) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.707685] (haha) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.726432] (-) TimerEvent: {}
+[2.741085] (haha) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.826902] (-) TimerEvent: {}
+[2.928043] (-) TimerEvent: {}
+[2.942210] (haha) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.028356] (-) TimerEvent: {}
+[3.131654] (-) TimerEvent: {}
+[3.231962] (-) TimerEvent: {}
+[3.332940] (-) TimerEvent: {}
+[3.433642] (-) TimerEvent: {}
+[3.534638] (-) TimerEvent: {}
+[3.635196] (-) TimerEvent: {}
+[3.734983] (haha) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.735291] (-) TimerEvent: {}
+[3.835786] (-) TimerEvent: {}
+[3.936532] (-) TimerEvent: {}
+[4.001512] (haha) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.036858] (-) TimerEvent: {}
+[4.137509] (-) TimerEvent: {}
+[4.238150] (-) TimerEvent: {}
+[4.319357] (haha) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.338427] (-) TimerEvent: {}
+[4.343468] (haha) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.4", minimum required is "3.6") \n'}
+[4.353290] (haha) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.407105] (haha) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.4", minimum required is "3.5") \n'}
+[4.408580] (haha) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.409068] (haha) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.409334] (haha) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.438991] (-) TimerEvent: {}
+[4.463365] (haha) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.540089] (-) TimerEvent: {}
+[4.602995] (haha) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.640626] (-) TimerEvent: {}
+[4.713995] (haha) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.741216] (-) TimerEvent: {}
+[4.842181] (-) TimerEvent: {}
+[4.851493] (haha) StdoutLine: {'line': b'-- Generating done\n'}
+[4.865189] (haha) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/ws01_plumbing/build/haha\n'}
+[4.885542] (haha) CommandEnded: {'returncode': 0}
+[4.887575] (haha) JobProgress: {'identifier': 'haha', 'progress': 'build'}
+[4.887638] (haha) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ws01_plumbing/build/haha', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ws01_plumbing/build/haha', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '870'), ('SYSTEMD_EXEC_PID', '1075'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3092'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:20050'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1030,unix/ros2VB:/tmp/.ICE-unix/1030'), ('INVOCATION_ID', 'ca48cbf331a14ef68b64b99bbb6bf7ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O9TZQ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d207489d79.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws01_plumbing/build/haha'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.942825] (-) TimerEvent: {}
+[5.043641] (-) TimerEvent: {}
+[5.052108] (haha) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.068802] (haha) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.144350] (-) TimerEvent: {}
+[5.161337] (haha) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_haha\n'}
+[5.244965] (-) TimerEvent: {}
+[5.345855] (-) TimerEvent: {}
+[5.447302] (-) TimerEvent: {}
+[5.565452] (-) TimerEvent: {}
+[5.666358] (-) TimerEvent: {}
+[5.767986] (-) TimerEvent: {}
+[5.869417] (-) TimerEvent: {}
+[5.970448] (-) TimerEvent: {}
+[6.071131] (-) TimerEvent: {}
+[6.171912] (-) TimerEvent: {}
+[6.237307] (haha) StdoutLine: {'line': b'running egg_info\n'}
+[6.237590] (haha) StdoutLine: {'line': b'creating haha.egg-info\n'}
+[6.237950] (haha) StdoutLine: {'line': b'writing haha.egg-info/PKG-INFO\n'}
+[6.238083] (haha) StdoutLine: {'line': b'writing dependency_links to haha.egg-info/dependency_links.txt\n'}
+[6.238205] (haha) StdoutLine: {'line': b'writing top-level names to haha.egg-info/top_level.txt\n'}
+[6.238323] (haha) StdoutLine: {'line': b"writing manifest file 'haha.egg-info/SOURCES.txt'\n"}
+[6.272733] (-) TimerEvent: {}
+[6.275533] (haha) StdoutLine: {'line': b"reading manifest file 'haha.egg-info/SOURCES.txt'\n"}
+[6.277459] (haha) StdoutLine: {'line': b"writing manifest file 'haha.egg-info/SOURCES.txt'\n"}
+[6.366341] (haha) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_haha_egg\n'}
+[6.373470] (-) TimerEvent: {}
+[6.474226] (-) TimerEvent: {}
+[6.574942] (-) TimerEvent: {}
+[6.646177] (haha) StdoutLine: {'line': b'[  6%] Built target haha__cpp\n'}
+[6.675371] (-) TimerEvent: {}
+[6.678637] (haha) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.686433] (haha) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.696854] (haha) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.722888] (haha) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/haha__rosidl_generator_c.dir/rosidl_generator_c/haha/action/detail/progress__functions.c.o\x1b[0m\n'}
+[6.776851] (-) TimerEvent: {}
+[6.877732] (-) TimerEvent: {}
+[6.984242] (-) TimerEvent: {}
+[7.085264] (-) TimerEvent: {}
+[7.186085] (-) TimerEvent: {}
+[7.287044] (-) TimerEvent: {}
+[7.387662] (-) TimerEvent: {}
+[7.488544] (-) TimerEvent: {}
+[7.589607] (-) TimerEvent: {}
+[7.690397] (-) TimerEvent: {}
+[7.701427] (haha) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/haha__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/haha/action/progress__type_support.cpp.o\x1b[0m\n'}
+[7.708937] (haha) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libhaha__rosidl_generator_c.so\x1b[0m\n'}
+[7.792727] (-) TimerEvent: {}
+[7.896038] (-) TimerEvent: {}
+[7.915612] (haha) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/haha__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/haha/action/detail/progress__type_support.cpp.o\x1b[0m\n'}
+[7.960644] (haha) StdoutLine: {'line': b'[ 29%] Built target haha__rosidl_generator_c\n'}
+[7.996540] (-) TimerEvent: {}
+[8.003732] (haha) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.097168] (-) TimerEvent: {}
+[8.198384] (-) TimerEvent: {}
+[8.299751] (-) TimerEvent: {}
+[8.404120] (-) TimerEvent: {}
+[8.498250] (haha) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/haha__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/haha/action/detail/dds_fastrtps/progress__type_support.cpp.o\x1b[0m\n'}
+[8.504538] (-) TimerEvent: {}
+[8.608653] (-) TimerEvent: {}
+[8.710815] (-) TimerEvent: {}
+[8.818275] (-) TimerEvent: {}
+[8.919043] (-) TimerEvent: {}
+[9.020432] (-) TimerEvent: {}
+[9.121659] (-) TimerEvent: {}
+[9.222601] (-) TimerEvent: {}
+[9.325188] (-) TimerEvent: {}
+[9.426169] (-) TimerEvent: {}
+[9.534005] (-) TimerEvent: {}
+[9.644500] (-) TimerEvent: {}
+[9.756885] (-) TimerEvent: {}
+[9.857942] (-) TimerEvent: {}
+[9.967684] (-) TimerEvent: {}
+[10.069701] (-) TimerEvent: {}
+[10.177362] (-) TimerEvent: {}
+[10.280079] (-) TimerEvent: {}
+[10.385552] (-) TimerEvent: {}
+[10.486628] (-) TimerEvent: {}
+[10.587411] (-) TimerEvent: {}
+[10.649851] (haha) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/haha__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/haha/action/detail/progress__type_support_c.cpp.o\x1b[0m\n'}
+[10.692681] (-) TimerEvent: {}
+[10.796877] (-) TimerEvent: {}
+[10.898409] (-) TimerEvent: {}
+[11.000840] (-) TimerEvent: {}
+[11.103736] (-) TimerEvent: {}
+[11.205046] (-) TimerEvent: {}
+[11.305951] (-) TimerEvent: {}
+[11.408857] (-) TimerEvent: {}
+[11.511664] (-) TimerEvent: {}
+[11.616927] (-) TimerEvent: {}
+[11.720715] (-) TimerEvent: {}
+[11.823978] (-) TimerEvent: {}
+[11.929133] (-) TimerEvent: {}
+[12.030431] (-) TimerEvent: {}
+[12.134803] (-) TimerEvent: {}
+[12.239453] (-) TimerEvent: {}
+[12.340208] (-) TimerEvent: {}
+[12.361416] (haha) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libhaha__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.362054] (haha) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libhaha__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.364604] (haha) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libhaha__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.442539] (-) TimerEvent: {}
+[12.528643] (haha) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libhaha__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.543891] (-) TimerEvent: {}
+[12.645444] (-) TimerEvent: {}
+[12.724037] (haha) StdoutLine: {'line': b'[ 51%] Built target haha__rosidl_typesupport_cpp\n'}
+[12.746175] (-) TimerEvent: {}
+[12.786993] (haha) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.797832] (haha) StdoutLine: {'line': b'[ 54%] Built target haha__rosidl_typesupport_introspection_cpp\n'}
+[12.817346] (haha) StdoutLine: {'line': b'[ 54%] Built target haha__rosidl_typesupport_fastrtps_cpp\n'}
+[12.838517] (haha) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.846519] (-) TimerEvent: {}
+[12.901985] (haha) StdoutLine: {'line': b'[ 58%] Built target haha__rosidl_typesupport_fastrtps_c\n'}
+[12.947485] (-) TimerEvent: {}
+[13.048639] (-) TimerEvent: {}
+[13.149642] (-) TimerEvent: {}
+[13.250846] (-) TimerEvent: {}
+[13.351665] (-) TimerEvent: {}
+[13.452608] (-) TimerEvent: {}
+[13.553656] (-) TimerEvent: {}
+[13.654434] (-) TimerEvent: {}
+[13.755242] (-) TimerEvent: {}
+[13.856164] (-) TimerEvent: {}
+[13.957699] (-) TimerEvent: {}
+[13.963839] (haha) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/haha__rosidl_typesupport_c.dir/rosidl_typesupport_c/haha/action/progress__type_support.cpp.o\x1b[0m\n'}
+[14.058234] (-) TimerEvent: {}
+[14.143391] (haha) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libhaha__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.158801] (-) TimerEvent: {}
+[14.178579] (haha) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/haha__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haha/action/detail/progress__type_support.c.o\x1b[0m\n'}
+[14.259362] (-) TimerEvent: {}
+[14.286250] (haha) StdoutLine: {'line': b'[ 67%] Built target haha__rosidl_typesupport_c\n'}
+[14.340666] (haha) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libhaha__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.359912] (-) TimerEvent: {}
+[14.460568] (-) TimerEvent: {}
+[14.465462] (haha) StdoutLine: {'line': b'[ 70%] Built target haha__rosidl_typesupport_introspection_c\n'}
+[14.523092] (haha) StdoutLine: {'line': b'[ 70%] Built target haha\n'}
+[14.561061] (-) TimerEvent: {}
+[14.587515] (haha) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.661642] (-) TimerEvent: {}
+[14.762844] (-) TimerEvent: {}
+[14.863662] (-) TimerEvent: {}
+[14.964555] (-) TimerEvent: {}
+[15.065498] (-) TimerEvent: {}
+[15.166707] (-) TimerEvent: {}
+[15.268127] (-) TimerEvent: {}
+[15.369402] (-) TimerEvent: {}
+[15.470046] (-) TimerEvent: {}
+[15.570835] (-) TimerEvent: {}
+[15.674317] (-) TimerEvent: {}
+[15.776570] (-) TimerEvent: {}
+[15.877385] (-) TimerEvent: {}
+[15.978319] (-) TimerEvent: {}
+[16.080520] (-) TimerEvent: {}
+[16.181797] (-) TimerEvent: {}
+[16.282755] (-) TimerEvent: {}
+[16.384683] (-) TimerEvent: {}
+[16.485293] (-) TimerEvent: {}
+[16.585780] (-) TimerEvent: {}
+[16.687271] (-) TimerEvent: {}
+[16.787854] (-) TimerEvent: {}
+[16.888605] (-) TimerEvent: {}
+[16.989951] (-) TimerEvent: {}
+[17.090408] (-) TimerEvent: {}
+[17.191402] (-) TimerEvent: {}
+[17.292755] (-) TimerEvent: {}
+[17.393699] (-) TimerEvent: {}
+[17.499543] (-) TimerEvent: {}
+[17.584093] (haha) StdoutLine: {'line': b'[ 74%] Built target haha__py\n'}
+[17.600104] (-) TimerEvent: {}
+[17.644763] (haha) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/haha__rosidl_generator_py.dir/rosidl_generator_py/haha/action/_progress_s.c.o\x1b[0m\n'}
+[17.701102] (-) TimerEvent: {}
+[17.802102] (-) TimerEvent: {}
+[17.903125] (-) TimerEvent: {}
+[18.004550] (-) TimerEvent: {}
+[18.106141] (-) TimerEvent: {}
+[18.208667] (-) TimerEvent: {}
+[18.309558] (-) TimerEvent: {}
+[18.410422] (-) TimerEvent: {}
+[18.425755] (haha) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/haha/libhaha__rosidl_generator_py.so\x1b[0m\n'}
+[18.510746] (-) TimerEvent: {}
+[18.608906] (haha) StdoutLine: {'line': b'[ 80%] Built target haha__rosidl_generator_py\n'}
+[18.611021] (-) TimerEvent: {}
+[18.667546] (haha) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/haha__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/haha/_haha_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.695533] (haha) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/haha__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/haha/_haha_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.704874] (haha) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/haha__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/haha/_haha_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.711632] (-) TimerEvent: {}
+[18.815530] (-) TimerEvent: {}
+[18.916587] (-) TimerEvent: {}
+[19.017406] (-) TimerEvent: {}
+[19.025724] (haha) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/haha/haha_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.117935] (-) TimerEvent: {}
+[19.149118] (haha) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/haha/haha_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.152653] (haha) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/haha/haha_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.161863] (haha) StdoutLine: {'line': b'[100%] Built target haha__rosidl_typesupport_introspection_c__pyext\n'}
+[19.218320] (-) TimerEvent: {}
+[19.255717] (haha) StdoutLine: {'line': b'[100%] Built target haha__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.278801] (haha) StdoutLine: {'line': b'[100%] Built target haha__rosidl_typesupport_c__pyext\n'}
+[19.307766] (haha) CommandEnded: {'returncode': 0}
+[19.318610] (-) TimerEvent: {}
+[19.419305] (-) TimerEvent: {}
+[19.520793] (-) TimerEvent: {}
+[19.606973] (haha) JobProgress: {'identifier': 'haha', 'progress': 'install'}
+[19.621151] (-) TimerEvent: {}
+[19.632790] (haha) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ws01_plumbing/build/haha'], 'cwd': '/home/ros2/ws01_plumbing/build/haha', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '870'), ('SYSTEMD_EXEC_PID', '1075'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3092'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:20050'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1030,unix/ros2VB:/tmp/.ICE-unix/1030'), ('INVOCATION_ID', 'ca48cbf331a14ef68b64b99bbb6bf7ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O9TZQ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d207489d79.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws01_plumbing/build/haha'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.651857] (haha) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.663779] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/ament_index/resource_index/rosidl_interfaces/haha\n'}
+[19.664447] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha\n'}
+[19.665143] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action\n'}
+[19.665367] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail\n'}
+[19.665561] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__type_support.h\n'}
+[19.665697] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__functions.h\n'}
+[19.666210] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__functions.c\n'}
+[19.666365] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__struct.h\n'}
+[19.666875] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/progress.h\n'}
+[19.667477] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/msg\n'}
+[19.667854] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.668061] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/environment/library_path.sh\n'}
+[19.668553] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/environment/library_path.dsv\n'}
+[19.672000] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_generator_c.so\n'}
+[19.672549] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_generator_c.so" to ""\n'}
+[19.672935] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha\n'}
+[19.673337] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action\n'}
+[19.673787] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail\n'}
+[19.673917] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__rosidl_typesupport_fastrtps_c.h\n'}
+[19.674037] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/msg\n'}
+[19.674236] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.674438] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_fastrtps_c.so\n'}
+[19.674639] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.674843] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha\n'}
+[19.675034] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action\n'}
+[19.675165] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail\n'}
+[19.675803] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__rosidl_typesupport_introspection_c.h\n'}
+[19.675930] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__type_support.c\n'}
+[19.676133] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/msg\n'}
+[19.676751] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.676892] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_introspection_c.so\n'}
+[19.677107] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.678139] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_c.so\n'}
+[19.678595] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_c.so" to ""\n'}
+[19.678804] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha\n'}
+[19.678928] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action\n'}
+[19.679047] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail\n'}
+[19.679231] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__builder.hpp\n'}
+[19.679358] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__traits.hpp\n'}
+[19.679937] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__struct.hpp\n'}
+[19.680064] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/progress.hpp\n'}
+[19.680183] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha\n'}
+[19.680738] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action\n'}
+[19.680973] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail\n'}
+[19.681257] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.681859] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/dds_fastrtps\n'}
+[19.682001] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/msg\n'}
+[19.682204] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.682326] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.682707] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.682833] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha\n'}
+[19.682949] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action\n'}
+[19.683066] (haha) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail\n'}
+[19.683183] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__type_support.cpp\n'}
+[19.684201] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/include/haha/haha/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.684500] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_introspection_cpp.so\n'}
+[19.690746] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.691057] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_cpp.so\n'}
+[19.691954] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_typesupport_cpp.so" to ""\n'}
+[19.692367] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/environment/pythonpath.sh\n'}
+[19.692525] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/environment/pythonpath.dsv\n'}
+[19.692648] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha-0.0.0-py3.10.egg-info\n'}
+[19.692768] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[19.692888] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[19.693009] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[19.693371] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[19.693497] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha\n'}
+[19.693645] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/_haha_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.693772] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/haha_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.693890] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/action\n'}
+[19.694009] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/action/__init__.py\n'}
+[19.694416] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/action/_progress_s.c\n'}
+[19.694629] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/action/_progress.py\n'}
+[19.694752] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/haha_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.694873] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/__init__.py\n'}
+[19.694991] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/_haha_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.695350] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/_haha_s.ep.rosidl_typesupport_c.c\n'}
+[19.695491] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/haha_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.695710] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/libhaha__rosidl_generator_py.so\n'}
+[19.721821] (-) TimerEvent: {}
+[19.817349] (haha) StdoutLine: {'line': b"Listing '/home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha'...\n"}
+[19.817699] (haha) StdoutLine: {'line': b"Compiling '/home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/__init__.py'...\n"}
+[19.817924] (haha) StdoutLine: {'line': b"Listing '/home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/action'...\n"}
+[19.818292] (haha) StdoutLine: {'line': b"Compiling '/home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/action/__init__.py'...\n"}
+[19.818424] (haha) StdoutLine: {'line': b"Compiling '/home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/action/_progress.py'...\n"}
+[19.822469] (-) TimerEvent: {}
+[19.830973] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/haha_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.832032] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/haha_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.832560] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/haha_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.833263] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/haha_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.833847] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/haha_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.834546] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/local/lib/python3.10/dist-packages/haha/haha_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.834788] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_generator_py.so\n'}
+[19.835789] (haha) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/haha/lib/libhaha__rosidl_generator_py.so" to ""\n'}
+[19.836676] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/action/Progress.idl\n'}
+[19.837171] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/action/Progress.action\n'}
+[19.837913] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/ament_index/resource_index/package_run_dependencies/haha\n'}
+[19.838387] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/ament_index/resource_index/parent_prefix_path/haha\n'}
+[19.838982] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/environment/ament_prefix_path.sh\n'}
+[19.840534] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/environment/ament_prefix_path.dsv\n'}
+[19.840790] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/environment/path.sh\n'}
+[19.841214] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/environment/path.dsv\n'}
+[19.842011] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/local_setup.bash\n'}
+[19.842477] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/local_setup.sh\n'}
+[19.842743] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/local_setup.zsh\n'}
+[19.843088] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/local_setup.dsv\n'}
+[19.843364] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/package.dsv\n'}
+[19.843900] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/ament_index/resource_index/packages/haha\n'}
+[19.844666] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/export_haha__rosidl_generator_cExport.cmake\n'}
+[19.844799] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/export_haha__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.845111] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/export_haha__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.845731] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/export_haha__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.846077] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/haha__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.846864] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/haha__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.847009] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/haha__rosidl_typesupport_cExport.cmake\n'}
+[19.847493] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/haha__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.847960] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/export_haha__rosidl_generator_cppExport.cmake\n'}
+[19.848714] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/export_haha__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.849133] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/export_haha__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.849750] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/haha__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.849900] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/haha__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.850022] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/haha__rosidl_typesupport_cppExport.cmake\n'}
+[19.850142] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/haha__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.853114] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/export_haha__rosidl_generator_pyExport.cmake\n'}
+[19.853462] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/export_haha__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.853595] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/rosidl_cmake-extras.cmake\n'}
+[19.853796] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.854792] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.855421] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.855692] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.855966] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.856998] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.857377] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/hahaConfig.cmake\n'}
+[19.857588] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/cmake/hahaConfig-version.cmake\n'}
+[19.857712] (haha) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/haha/share/haha/package.xml\n'}
+[19.859917] (haha) CommandEnded: {'returncode': 0}
+[19.923067] (-) TimerEvent: {}
+[20.023745] (-) TimerEvent: {}
+[20.125662] (-) TimerEvent: {}
+[20.226934] (-) TimerEvent: {}
+[20.327806] (-) TimerEvent: {}
+[20.422177] (haha) JobEnded: {'identifier': 'haha', 'rc': 0}
+[20.423439] (-) EventReactorShutdown: {}

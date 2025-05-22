@@ -1,0 +1,16 @@
+[0.106s] Invoking command in '/home/ros2/ws01_plumbing/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/turtlesim:/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/tutorails_plumbing:/home/ros2/ws01_plumbing/install/cpp07_exercise:/home/ros2/ws01_plumbing/install/cpp06_time:/home/ros2/ws01_plumbing/install/cpp05_names:/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py06_time:/home/ros2/ws01_plumbing/install/py05_names:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp07_exercise -- -j4 -l4
+[0.475s] [ 16%] Built target exer03_client
+[0.496s] [ 33%] Built target exer01_pub_sub
+[0.522s] [ 50%] Built target exer02_server
+[0.525s] [ 66%] Built target exer04_action_server
+[0.575s] [35m[1mConsolidate compiler generated dependencies of target exer06_param[0m
+[0.657s] [ 83%] Built target exer05_action_client
+[0.675s] [ 91%] [32mBuilding CXX object CMakeFiles/exer06_param.dir/src/exer06_param.cpp.o[0m
+[12.026s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer06_param.cpp:[m[K In member function ‘[01m[Kvoid Exer06Param::update_param()[m[K’:
+[12.027s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer06_param.cpp:63:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K?[m[K’ token
+[12.027s]    63 |             if(count <= 255)[01;31m[K?[m[K red += 5: red -= 5;
+[12.027s]       |                             [01;31m[K^[m[K
+[14.223s] gmake[2]: *** [CMakeFiles/exer06_param.dir/build.make:76：CMakeFiles/exer06_param.dir/src/exer06_param.cpp.o] 错误 1
+[14.225s] gmake[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/exer06_param.dir/all] 错误 2
+[14.226s] gmake: *** [Makefile:146：all] 错误 2
+[14.231s] Invoked command in '/home/ros2/ws01_plumbing/build/cpp07_exercise' returned '2': CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/turtlesim:/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/tutorails_plumbing:/home/ros2/ws01_plumbing/install/cpp07_exercise:/home/ros2/ws01_plumbing/install/cpp06_time:/home/ros2/ws01_plumbing/install/cpp05_names:/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py06_time:/home/ros2/ws01_plumbing/install/py05_names:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp07_exercise -- -j4 -l4

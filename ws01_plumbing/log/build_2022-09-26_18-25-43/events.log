@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000664] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000726] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000749] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000766] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000783] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000798] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000843] (-) JobUnselected: {'identifier': 'cpp07_exercise'}
+[0.000860] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000875] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000890] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000905] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.001008] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.001059] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.001078] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001093] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.006303] (cpp03_action) JobQueued: {'identifier': 'cpp03_action', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/ros2/ws01_plumbing/install/base_interfaces_demo')])}
+[0.006379] (cpp03_action) JobStarted: {'identifier': 'cpp03_action'}
+[0.023485] (cpp03_action) JobProgress: {'identifier': 'cpp03_action', 'progress': 'cmake'}
+[0.025430] (cpp03_action) JobProgress: {'identifier': 'cpp03_action', 'progress': 'build'}
+[0.025545] (cpp03_action) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ws01_plumbing/build/cpp03_action', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ws01_plumbing/build/cpp03_action', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/ws01_plumbing/install/base_interfaces_demo/lib:/home/ros2/ws01_plumbing/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '893'), ('SYSTEMD_EXEC_PID', '1113'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4732'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:20100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1089,unix/ros2VB:/tmp/.ICE-unix/1089'), ('INVOCATION_ID', 'f355340a1a084418b7834c1a537df441'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.86TDT1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d207489d79.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ws01_plumbing/install/tutorails_plumbing:/home/ros2/ws01_plumbing/install/cpp07_exercise:/home/ros2/ws01_plumbing/install/turtlesim:/home/ros2/ws01_plumbing/install/py06_time:/home/ros2/ws01_plumbing/install/py05_names:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/home/ros2/ws01_plumbing/install/cpp06_time:/home/ros2/ws01_plumbing/install/cpp05_names:/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws01_plumbing/build/cpp03_action'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages:/home/ros2/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/tutorails_plumbing:/home/ros2/ws01_plumbing/install/cpp07_exercise:/home/ros2/ws01_plumbing/install/turtlesim:/home/ros2/ws01_plumbing/install/cpp06_time:/home/ros2/ws01_plumbing/install/cpp05_names:/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py06_time:/home/ros2/ws01_plumbing/install/py05_names:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble')]), 'shell': False}
+[0.099841] (-) TimerEvent: {}
+[0.102174] (cpp03_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_action_client\x1b[0m\n'}
+[0.123819] (cpp03_action) StdoutLine: {'line': b'[ 50%] Built target demo01_action_server\n'}
+[0.136330] (cpp03_action) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o\x1b[0m\n'}
+[0.200196] (-) TimerEvent: {}
+[0.300688] (-) TimerEvent: {}
+[0.401273] (-) TimerEvent: {}
+[0.501913] (-) TimerEvent: {}
+[0.602333] (-) TimerEvent: {}
+[0.702848] (-) TimerEvent: {}
+[0.803390] (-) TimerEvent: {}
+[0.903902] (-) TimerEvent: {}
+[1.004501] (-) TimerEvent: {}
+[1.105083] (-) TimerEvent: {}
+[1.205961] (-) TimerEvent: {}
+[1.306659] (-) TimerEvent: {}
+[1.408126] (-) TimerEvent: {}
+[1.509303] (-) TimerEvent: {}
+[1.610639] (-) TimerEvent: {}
+[1.711636] (-) TimerEvent: {}
+[1.812694] (-) TimerEvent: {}
+[1.914038] (-) TimerEvent: {}
+[2.014761] (-) TimerEvent: {}
+[2.115910] (-) TimerEvent: {}
+[2.216870] (-) TimerEvent: {}
+[2.317696] (-) TimerEvent: {}
+[2.418695] (-) TimerEvent: {}
+[2.519330] (-) TimerEvent: {}
+[2.619962] (-) TimerEvent: {}
+[2.720490] (-) TimerEvent: {}
+[2.821450] (-) TimerEvent: {}
+[2.922515] (-) TimerEvent: {}
+[3.023802] (-) TimerEvent: {}
+[3.125203] (-) TimerEvent: {}
+[3.226813] (-) TimerEvent: {}
+[3.327456] (-) TimerEvent: {}
+[3.428263] (-) TimerEvent: {}
+[3.529342] (-) TimerEvent: {}
+[3.630976] (-) TimerEvent: {}
+[3.732002] (-) TimerEvent: {}
+[3.832952] (-) TimerEvent: {}
+[3.933541] (-) TimerEvent: {}
+[4.035042] (-) TimerEvent: {}
+[4.136081] (-) TimerEvent: {}
+[4.237330] (-) TimerEvent: {}
+[4.339425] (-) TimerEvent: {}
+[4.441272] (-) TimerEvent: {}
+[4.543643] (-) TimerEvent: {}
+[4.644450] (-) TimerEvent: {}
+[4.745216] (-) TimerEvent: {}
+[4.846631] (-) TimerEvent: {}
+[4.947615] (-) TimerEvent: {}
+[5.048091] (-) TimerEvent: {}
+[5.148658] (-) TimerEvent: {}
+[5.249478] (-) TimerEvent: {}
+[5.350562] (-) TimerEvent: {}
+[5.451272] (-) TimerEvent: {}
+[5.552005] (-) TimerEvent: {}
+[5.652796] (-) TimerEvent: {}
+[5.753957] (-) TimerEvent: {}
+[5.854814] (-) TimerEvent: {}
+[5.955930] (-) TimerEvent: {}
+[6.056867] (-) TimerEvent: {}
+[6.157924] (-) TimerEvent: {}
+[6.258949] (-) TimerEvent: {}
+[6.359920] (-) TimerEvent: {}
+[6.460682] (-) TimerEvent: {}
+[6.561533] (-) TimerEvent: {}
+[6.662435] (-) TimerEvent: {}
+[6.763442] (-) TimerEvent: {}
+[6.864320] (-) TimerEvent: {}
+[6.964995] (-) TimerEvent: {}
+[7.066008] (-) TimerEvent: {}
+[7.166986] (-) TimerEvent: {}
+[7.267558] (-) TimerEvent: {}
+[7.368328] (-) TimerEvent: {}
+[7.469230] (-) TimerEvent: {}
+[7.570618] (-) TimerEvent: {}
+[7.671613] (-) TimerEvent: {}
+[7.773137] (-) TimerEvent: {}
+[7.873984] (-) TimerEvent: {}
+[7.974979] (-) TimerEvent: {}
+[8.075773] (-) TimerEvent: {}
+[8.176643] (-) TimerEvent: {}
+[8.277380] (-) TimerEvent: {}
+[8.378365] (-) TimerEvent: {}
+[8.479190] (-) TimerEvent: {}
+[8.579825] (-) TimerEvent: {}
+[8.680645] (-) TimerEvent: {}
+[8.782197] (-) TimerEvent: {}
+[8.883128] (-) TimerEvent: {}
+[8.983937] (-) TimerEvent: {}
+[9.084732] (-) TimerEvent: {}
+[9.185936] (-) TimerEvent: {}
+[9.286905] (-) TimerEvent: {}
+[9.387887] (-) TimerEvent: {}
+[9.488983] (-) TimerEvent: {}
+[9.590040] (-) TimerEvent: {}
+[9.691116] (-) TimerEvent: {}
+[9.792355] (-) TimerEvent: {}
+[9.893257] (-) TimerEvent: {}
+[9.994727] (-) TimerEvent: {}
+[10.095487] (-) TimerEvent: {}
+[10.196108] (-) TimerEvent: {}
+[10.296837] (-) TimerEvent: {}
+[10.397656] (-) TimerEvent: {}
+[10.498200] (-) TimerEvent: {}
+[10.598782] (-) TimerEvent: {}
+[10.699786] (-) TimerEvent: {}
+[10.801506] (-) TimerEvent: {}
+[10.902811] (-) TimerEvent: {}
+[11.003744] (-) TimerEvent: {}
+[11.104836] (-) TimerEvent: {}
+[11.206070] (-) TimerEvent: {}
+[11.306872] (-) TimerEvent: {}
+[11.407837] (-) TimerEvent: {}
+[11.508321] (-) TimerEvent: {}
+[11.608870] (-) TimerEvent: {}
+[11.709667] (-) TimerEvent: {}
+[11.810466] (-) TimerEvent: {}
+[11.911361] (-) TimerEvent: {}
+[12.011981] (-) TimerEvent: {}
+[12.112691] (-) TimerEvent: {}
+[12.213418] (-) TimerEvent: {}
+[12.314598] (-) TimerEvent: {}
+[12.415430] (-) TimerEvent: {}
+[12.516414] (-) TimerEvent: {}
+[12.617126] (-) TimerEvent: {}
+[12.717989] (-) TimerEvent: {}
+[12.819163] (-) TimerEvent: {}
+[12.919612] (-) TimerEvent: {}
+[13.020218] (-) TimerEvent: {}
+[13.121261] (-) TimerEvent: {}
+[13.223084] (-) TimerEvent: {}
+[13.324130] (-) TimerEvent: {}
+[13.425192] (-) TimerEvent: {}
+[13.526043] (-) TimerEvent: {}
+[13.627473] (-) TimerEvent: {}
+[13.728512] (-) TimerEvent: {}
+[13.829139] (-) TimerEvent: {}
+[13.930075] (-) TimerEvent: {}
+[14.031143] (-) TimerEvent: {}
+[14.131639] (-) TimerEvent: {}
+[14.232356] (-) TimerEvent: {}
+[14.332796] (-) TimerEvent: {}
+[14.433455] (-) TimerEvent: {}
+[14.535194] (-) TimerEvent: {}
+[14.636474] (-) TimerEvent: {}
+[14.738221] (-) TimerEvent: {}
+[14.839224] (-) TimerEvent: {}
+[14.939936] (-) TimerEvent: {}
+[15.040880] (-) TimerEvent: {}
+[15.142089] (-) TimerEvent: {}
+[15.243503] (-) TimerEvent: {}
+[15.344315] (-) TimerEvent: {}
+[15.445834] (-) TimerEvent: {}
+[15.546642] (-) TimerEvent: {}
+[15.649769] (-) TimerEvent: {}
+[15.672970] (cpp03_action) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_action_client\x1b[0m\n'}
+[15.751348] (-) TimerEvent: {}
+[15.852204] (-) TimerEvent: {}
+[15.954065] (-) TimerEvent: {}
+[16.054904] (-) TimerEvent: {}
+[16.155680] (-) TimerEvent: {}
+[16.258484] (-) TimerEvent: {}
+[16.259401] (cpp03_action) StdoutLine: {'line': b'[100%] Built target demo02_action_client\n'}
+[16.291773] (cpp03_action) CommandEnded: {'returncode': 0}
+[16.359194] (-) TimerEvent: {}
+[16.427055] (cpp03_action) JobProgress: {'identifier': 'cpp03_action', 'progress': 'install'}
+[16.449942] (cpp03_action) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ws01_plumbing/build/cpp03_action'], 'cwd': '/home/ros2/ws01_plumbing/build/cpp03_action', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/ws01_plumbing/install/base_interfaces_demo/lib:/home/ros2/ws01_plumbing/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '893'), ('SYSTEMD_EXEC_PID', '1113'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4732'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:20100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1089,unix/ros2VB:/tmp/.ICE-unix/1089'), ('INVOCATION_ID', 'f355340a1a084418b7834c1a537df441'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.86TDT1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d207489d79.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ws01_plumbing/install/tutorails_plumbing:/home/ros2/ws01_plumbing/install/cpp07_exercise:/home/ros2/ws01_plumbing/install/turtlesim:/home/ros2/ws01_plumbing/install/py06_time:/home/ros2/ws01_plumbing/install/py05_names:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/home/ros2/ws01_plumbing/install/cpp06_time:/home/ros2/ws01_plumbing/install/cpp05_names:/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws01_plumbing/build/cpp03_action'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages:/home/ros2/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/ros2/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/tutorails_plumbing:/home/ros2/ws01_plumbing/install/cpp07_exercise:/home/ros2/ws01_plumbing/install/turtlesim:/home/ros2/ws01_plumbing/install/cpp06_time:/home/ros2/ws01_plumbing/install/cpp05_names:/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py06_time:/home/ros2/ws01_plumbing/install/py05_names:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble')]), 'shell': False}
+[16.460012] (-) TimerEvent: {}
+[16.468091] (cpp03_action) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.468859] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server\n'}
+[16.472508] (cpp03_action) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client\n'}
+[16.473262] (cpp03_action) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client" to ""\n'}
+[16.473457] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action\n'}
+[16.474523] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action\n'}
+[16.474740] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh\n'}
+[16.474867] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv\n'}
+[16.475163] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh\n'}
+[16.475307] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv\n'}
+[16.475636] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash\n'}
+[16.479150] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh\n'}
+[16.479526] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh\n'}
+[16.480007] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv\n'}
+[16.480152] (cpp03_action) StdoutLine: {'line': b'-- Installing: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv\n'}
+[16.480353] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action\n'}
+[16.481512] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake\n'}
+[16.482506] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake\n'}
+[16.482727] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml\n'}
+[16.498183] (cpp03_action) CommandEnded: {'returncode': 0}
+[16.560698] (-) TimerEvent: {}
+[16.662343] (-) TimerEvent: {}
+[16.708505] (cpp03_action) JobEnded: {'identifier': 'cpp03_action', 'rc': 0}
+[16.711867] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+[0.083s] Invoking command in '/home/ros2/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[0.353s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[0.381s] [ 75%] Built target demo02_action_client
+[10.216s] [01m[K/home/ros2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ProgressActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[10.216s] [01m[K/home/ros2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:74:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.217s]    74 |     rclcpp_action::CancelResponse handle_cancel([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle[m[K){
+[10.217s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[10.217s] [01m[K/home/ros2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[10.218s] [01m[K/home/ros2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:83:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.218s]    83 |     void handle_accepted([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle[m[K){
+[10.218s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[14.712s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[15.258s] [100%] Built target demo01_action_server
+[15.296s] Invoked command in '/home/ros2/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[15.475s] Invoking command in '/home/ros2/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ws01_plumbing/build/cpp03_action
+[15.495s] -- Install configuration: ""
+[15.496s] -- Installing: /home/ros2/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[15.500s] -- Set runtime path of "/home/ros2/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[15.501s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client
+[15.502s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[15.502s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[15.503s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[15.504s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[15.508s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+[15.508s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[15.508s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+[15.509s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+[15.509s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[15.510s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[15.510s] -- Installing: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+[15.510s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[15.515s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[15.517s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[15.523s] -- Up-to-date: /home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml
+[15.524s] Invoked command in '/home/ros2/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ws01_plumbing/build/cpp03_action

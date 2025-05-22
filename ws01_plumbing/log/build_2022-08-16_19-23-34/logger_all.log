@@ -1,0 +1,192 @@
+[6.857s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cpp03_action']
+[6.857s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['cpp03_action'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9c826dc3a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9c829f3070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9c829f3070>>)
+[8.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.601s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros2/ws01_plumbing'
+[8.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.790s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.791s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.791s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.791s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.791s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.792s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.792s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.793s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.793s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[8.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[8.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[8.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[8.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[8.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[8.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[8.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[8.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[8.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[8.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[8.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[8.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[8.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[8.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[8.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore'
+[8.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore_ament_install'
+[8.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_pkg']
+[8.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_pkg'
+[8.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_meta']
+[8.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_meta'
+[8.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ros']
+[8.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ros'
+[8.823s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[8.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[8.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore'
+[8.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore_ament_install'
+[8.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_pkg']
+[8.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_pkg'
+[8.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_meta']
+[8.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_meta'
+[8.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ros']
+[8.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ros'
+[8.876s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[8.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['ignore', 'ignore_ament_install']
+[8.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ignore'
+[8.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ignore_ament_install'
+[8.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['colcon_pkg']
+[8.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'colcon_pkg'
+[8.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['colcon_meta']
+[8.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'colcon_meta'
+[8.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['ros']
+[8.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ros'
+[8.893s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp02_service' with type 'ros.ament_cmake' and name 'cpp02_service'
+[8.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['ignore', 'ignore_ament_install']
+[8.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ignore'
+[8.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ignore_ament_install'
+[8.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['colcon_pkg']
+[8.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'colcon_pkg'
+[8.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['colcon_meta']
+[8.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'colcon_meta'
+[8.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['ros']
+[8.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ros'
+[8.899s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp03_action' with type 'ros.ament_cmake' and name 'cpp03_action'
+[8.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['ignore', 'ignore_ament_install']
+[8.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ignore'
+[8.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ignore_ament_install'
+[8.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['colcon_pkg']
+[8.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'colcon_pkg'
+[8.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['colcon_meta']
+[8.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'colcon_meta'
+[8.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['ros']
+[8.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ros'
+[8.906s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py01_topic' with type 'ros.ament_python' and name 'py01_topic'
+[8.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extensions ['ignore', 'ignore_ament_install']
+[8.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extension 'ignore'
+[8.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extension 'ignore_ament_install'
+[8.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extensions ['colcon_pkg']
+[8.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extension 'colcon_pkg'
+[8.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extensions ['colcon_meta']
+[8.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extension 'colcon_meta'
+[8.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extensions ['ros']
+[8.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extension 'ros'
+[8.912s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py02_service' with type 'ros.ament_python' and name 'py02_service'
+[8.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extensions ['ignore', 'ignore_ament_install']
+[8.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extension 'ignore'
+[8.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extension 'ignore_ament_install'
+[8.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extensions ['colcon_pkg']
+[8.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extension 'colcon_pkg'
+[8.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extensions ['colcon_meta']
+[8.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extension 'colcon_meta'
+[8.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extensions ['ros']
+[8.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extension 'ros'
+[8.923s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py03_action' with type 'ros.ament_python' and name 'py03_action'
+[8.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[9.362s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'base_interfaces_demo' in 'src/base_interfaces_demo'
+[9.362s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py02_service' in 'src/py02_service'
+[9.363s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp01_topic' in 'src/cpp01_topic'
+[9.363s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp02_service' in 'src/cpp02_service'
+[9.363s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py01_topic' in 'src/py01_topic'
+[9.363s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py03_action' in 'src/py03_action'
+[9.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[9.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[9.445s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/ros2/ws01_plumbing/install
+[9.455s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[9.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[11.456s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_args' from command line to 'None'
+[11.457s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target' from command line to 'None'
+[11.457s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.457s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_cache' from command line to 'False'
+[11.457s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_first' from command line to 'False'
+[11.457s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_force_configure' from command line to 'False'
+[11.457s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'ament_cmake_args' from command line to 'None'
+[11.457s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_cmake_args' from command line to 'None'
+[11.457s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.458s] DEBUG:colcon.colcon_core.verb:Building package 'cpp03_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ws01_plumbing/build/cpp03_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ws01_plumbing/install/cpp03_action', 'merge_install': False, 'path': '/home/ros2/ws01_plumbing/src/cpp03_action', 'symlink_install': False, 'test_result_base': None}
+[11.460s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[11.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[11.473s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/ws01_plumbing/src/cpp03_action' with build type 'ament_cmake'
+[11.473s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/ws01_plumbing/src/cpp03_action'
+[11.697s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[11.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake /home/ros2/ws01_plumbing/src/cpp03_action -DCMAKE_INSTALL_PREFIX=/home/ros2/ws01_plumbing/install/cpp03_action
+[30.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake /home/ros2/ws01_plumbing/src/cpp03_action -DCMAKE_INSTALL_PREFIX=/home/ros2/ws01_plumbing/install/cpp03_action
+[30.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[48.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[48.488s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action' for CMake module files
+[48.489s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action' for CMake config files
+[48.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_action', 'cmake_prefix_path')
+[48.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.ps1'
+[48.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.dsv'
+[48.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.sh'
+[48.531s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action/lib'
+[48.532s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action/bin'
+[48.532s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[48.533s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action/lib/python3.10/site-packages'
+[48.533s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action/bin'
+[48.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.ps1'
+[48.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv'
+[48.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.sh'
+[48.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.bash'
+[48.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.zsh'
+[48.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ws01_plumbing/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[48.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[48.736s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action' for CMake module files
+[48.737s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action' for CMake config files
+[48.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_action', 'cmake_prefix_path')
+[48.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.ps1'
+[48.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.dsv'
+[48.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.sh'
+[48.750s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action/lib'
+[48.750s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action/bin'
+[48.750s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[48.751s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action/lib/python3.10/site-packages'
+[48.751s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ws01_plumbing/install/cpp03_action/bin'
+[48.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.ps1'
+[48.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv'
+[48.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.sh'
+[48.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.bash'
+[48.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.zsh'
+[48.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ws01_plumbing/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[48.767s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[48.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[48.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[48.768s] DEBUG:colcon.colcon_core.event_reactor:joining thread

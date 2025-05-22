@@ -1,0 +1,8 @@
+[01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer06_param.cpp:[m[K In member function ‘[01m[Kbool Exer06Param::connect_server()[m[K’:
+[01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer06_param.cpp:27:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclinet_[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+   27 |         while (![01;31m[Kclinet_[m[K->wait_for_service(1s))
+      |                 [01;31m[K^~~~~~~[m[K
+      |                 [32m[Kclient_[m[K
+gmake[2]: *** [CMakeFiles/exer06_param.dir/build.make:76：CMakeFiles/exer06_param.dir/src/exer06_param.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/exer06_param.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

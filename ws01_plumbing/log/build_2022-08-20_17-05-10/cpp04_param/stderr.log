@@ -1,0 +1,16 @@
+[01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:[m[K In constructor ‘[01m[KMyParam::MyParam()[m[K’:
+[01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:27:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Parameter p1[m[K’
+   24 |         rclcpp::Parameter [01;31m[Kp1[m[K("heght",1.68);
+      |                           [01;31m[K^~[m[K
+[01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:23:27:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Parameter p1[m[K’ previously declared here
+   23 |         rclcpp::Parameter [01;36m[Kp1[m[K("car_name","Tiger");
+      |                           [01;36m[K^~[m[K
+[01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:25:27:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Parameter p1[m[K’
+   25 |         rclcpp::Parameter [01;31m[Kp1[m[K("wheels",4);
+      |                           [01;31m[K^~[m[K
+[01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:23:27:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Parameter p1[m[K’ previously declared here
+   23 |         rclcpp::Parameter [01;36m[Kp1[m[K("car_name","Tiger");
+      |                           [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/demo00_param.dir/build.make:76：CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo00_param.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

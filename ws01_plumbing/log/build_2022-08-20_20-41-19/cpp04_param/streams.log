@@ -1,0 +1,13 @@
+[0.057s] Invoking command in '/home/ros2/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_server[0m
+[0.303s] [ 33%] Built target demo00_param
+[0.329s] [ 66%] Built target demo02_param_client
+[0.353s] [ 83%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[9.394s] [01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:[m[K In member function ‘[01m[Kvoid ParamServer::del_param()[m[K’:
+[9.394s] [01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:59:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ParamServer[m[K’ has no member named ‘[01m[Kundeclare[m[K’
+[9.394s]    59 |         this->[01;31m[Kundeclare[m[K("car_name");
+[9.394s]       |               [01;31m[K^~~~~~~~~[m[K
+[11.189s] gmake[2]: *** [CMakeFiles/demo01_param_server.dir/build.make:76：CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o] 错误 1
+[11.189s] gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/demo01_param_server.dir/all] 错误 2
+[11.189s] gmake: *** [Makefile:146：all] 错误 2
+[11.199s] Invoked command in '/home/ros2/ws01_plumbing/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp04_param -- -j4 -l4

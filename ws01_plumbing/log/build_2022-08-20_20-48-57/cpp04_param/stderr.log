@@ -1,0 +1,15 @@
+[01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:[m[K In member function ‘[01m[Kvoid ParamServer::declare_param()[m[K’:
+[01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:31:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KParamServer::set_parameter(const char [7], double)[m[K’
+   31 |         [01;31m[Kthis->set_parameter("height", 2.70)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)[m[K’
+  555 |   [01;36m[Kset_parameter[m[K(const rclcpp::Parameter & parameter);
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/demo01_param_server.dir/build.make:76：CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/demo01_param_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

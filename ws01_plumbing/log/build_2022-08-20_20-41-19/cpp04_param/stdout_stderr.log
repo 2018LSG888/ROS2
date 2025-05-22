@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_param_server[0m
+[ 33%] Built target demo00_param
+[ 66%] Built target demo02_param_client
+[ 83%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:[m[K In member function ‘[01m[Kvoid ParamServer::del_param()[m[K’:
+[01m[K/home/ros2/ws01_plumbing/src/cpp04_param/src/demo01_param_server.cpp:59:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ParamServer[m[K’ has no member named ‘[01m[Kundeclare[m[K’
+   59 |         this->[01;31m[Kundeclare[m[K("car_name");
+      |               [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_param_server.dir/build.make:76：CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/demo01_param_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

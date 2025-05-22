@@ -1,0 +1,175 @@
+[0.098s] Invoking command in '/home/ros2/ws01_plumbing/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/turtlesim:/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/tutorails_plumbing:/home/ros2/ws01_plumbing/install/cpp07_exercise:/home/ros2/ws01_plumbing/install/cpp06_time:/home/ros2/ws01_plumbing/install/cpp05_names:/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py06_time:/home/ros2/ws01_plumbing/install/py05_names:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp07_exercise -- -j4 -l4
+[0.407s] [35m[1mConsolidate compiler generated dependencies of target exer04_action_server[0m
+[0.470s] [ 20%] Built target exer01_pub_sub
+[0.486s] [ 40%] Built target exer03_client
+[0.502s] [ 60%] Built target exer02_server
+[0.582s] [ 70%] [32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o[0m
+[0.662s] [ 90%] Built target exer05_action_client
+[11.970s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:70:59:[m[K [01;31m[Kerror: [m[K‘[01m[KactionGoalUUID[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[11.970s]    70 |     rclcpp_action::GoalResponse handle_goal(const rclcpp::[01;31m[KactionGoalUUID[m[K & uuid, std::shared_ptr<const Nav::Goal> goal){
+[11.972s]       |                                                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[11.972s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:77:65:[m[K [01;31m[Kerror: [m[K‘[01m[KServerGoalHandle[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp_action::ServerGoalHandle[m[K’?
+[11.972s]    77 |     rclcpp_action::CancelResponse handle_cancel(std::shared_ptr<[01;31m[KServerGoalHandle[m[K<Nav>> goal_handle){
+[11.973s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[11.973s]       |                                                                 [32m[Krclcpp_action::ServerGoalHandle[m[K
+[11.977s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+[11.978s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+[11.978s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[11.978s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[11.979s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp_action::ServerGoalHandle[m[K’ declared here
+[11.979s]   135 | class [01;36m[KServerGoalHandle[m[K : public ServerGoalHandleBase
+[11.979s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.980s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:77:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.980s]    77 |     rclcpp_action::CancelResponse handle_cancel(std::shared_ptr<ServerGoalHandle<[01;31m[KNav[m[K>> goal_handle){
+[11.980s]       |                                                                                  [01;31m[K^~~[m[K
+[11.980s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:77:65:[m[K [01;31m[Kerror: [m[K‘[01m[KServerGoalHandle[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp_action::ServerGoalHandle[m[K’?
+[11.982s]    77 |     rclcpp_action::CancelResponse handle_cancel(std::shared_ptr<[01;31m[KServerGoalHandle[m[K<Nav>> goal_handle){
+[11.982s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[11.983s]       |                                                                 [32m[Krclcpp_action::ServerGoalHandle[m[K
+[11.983s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+[11.983s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+[11.984s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[11.985s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[11.986s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp_action::ServerGoalHandle[m[K’ declared here
+[11.986s]   135 | class [01;36m[KServerGoalHandle[m[K : public ServerGoalHandleBase
+[11.987s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.987s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:77:85:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.988s]    77 |     rclcpp_action::CancelResponse handle_cancel(std::shared_ptr<ServerGoalHandle<Nav[01;31m[K>>[m[K goal_handle){
+[11.989s]       |                                                                                     [01;31m[K^~[m[K
+[11.989s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:77:65:[m[K [01;31m[Kerror: [m[K‘[01m[KServerGoalHandle[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp_action::ServerGoalHandle[m[K’?
+[11.989s]    77 |     rclcpp_action::CancelResponse handle_cancel(std::shared_ptr<[01;31m[KServerGoalHandle[m[K<Nav>> goal_handle){
+[11.990s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[11.990s]       |                                                                 [32m[Krclcpp_action::ServerGoalHandle[m[K
+[11.990s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+[11.990s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+[11.990s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[11.991s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[11.991s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp_action::ServerGoalHandle[m[K’ declared here
+[11.992s]   135 | class [01;36m[KServerGoalHandle[m[K : public ServerGoalHandleBase
+[11.992s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.992s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:77:85:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.992s]    77 |     rclcpp_action::CancelResponse handle_cancel(std::shared_ptr<ServerGoalHandle<Nav[01;31m[K>>[m[K goal_handle){
+[11.993s]       |                                                                                     [01;31m[K^~[m[K
+[11.995s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:77:49:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[11.995s]    77 |     rclcpp_action::CancelResponse handle_cancel([01;31m[Kstd[m[K::shared_ptr<ServerGoalHandle<Nav>> goal_handle){
+[11.996s]       |                                                 [01;31m[K^~~[m[K
+[11.999s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:77:65:[m[K [01;31m[Kerror: [m[K‘[01m[KServerGoalHandle[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp_action::ServerGoalHandle[m[K’?
+[12.000s]    77 |     rclcpp_action::CancelResponse handle_cancel(std::shared_ptr<[01;31m[KServerGoalHandle[m[K<Nav>> goal_handle){
+[12.000s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.000s]       |                                                                 [32m[Krclcpp_action::ServerGoalHandle[m[K
+[12.001s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+[12.001s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+[12.002s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[12.002s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[12.002s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp_action::ServerGoalHandle[m[K’ declared here
+[12.003s]   135 | class [01;36m[KServerGoalHandle[m[K : public ServerGoalHandleBase
+[12.003s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[12.003s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:77:85:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[12.004s]    77 |     rclcpp_action::CancelResponse handle_cancel(std::shared_ptr<ServerGoalHandle<Nav[01;31m[K>>[m[K goal_handle){
+[12.004s]       |                                                                                     [01;31m[K^~[m[K
+[12.005s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:77:49:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[12.006s]    77 |     rclcpp_action::CancelResponse handle_cancel([01;31m[Kstd[m[K::shared_ptr<ServerGoalHandle<Nav>> goal_handle){
+[12.007s]       |                                                 [01;31m[K^~~[m[K
+[12.008s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:83:42:[m[K [01;31m[Kerror: [m[K‘[01m[KServerGoalHandle[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp_action::ServerGoalHandle[m[K’?
+[12.009s]    83 |     void handle_accepted(std::shared_ptr<[01;31m[KServerGoalHandle[m[K<Nav>> goal_handle){
+[12.015s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.016s]       |                                          [32m[Krclcpp_action::ServerGoalHandle[m[K
+[12.022s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+[12.023s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+[12.023s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[12.024s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[12.024s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp_action::ServerGoalHandle[m[K’ declared here
+[12.024s]   135 | class [01;36m[KServerGoalHandle[m[K : public ServerGoalHandleBase
+[12.025s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[12.026s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:83:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.026s]    83 |     void handle_accepted(std::shared_ptr<ServerGoalHandle<[01;31m[KNav[m[K>> goal_handle){
+[12.026s]       |                                                           [01;31m[K^~~[m[K
+[12.027s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:83:42:[m[K [01;31m[Kerror: [m[K‘[01m[KServerGoalHandle[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp_action::ServerGoalHandle[m[K’?
+[12.027s]    83 |     void handle_accepted(std::shared_ptr<[01;31m[KServerGoalHandle[m[K<Nav>> goal_handle){
+[12.028s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.028s]       |                                          [32m[Krclcpp_action::ServerGoalHandle[m[K
+[12.029s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+[12.030s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+[12.030s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[12.032s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[12.032s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp_action::ServerGoalHandle[m[K’ declared here
+[12.033s]   135 | class [01;36m[KServerGoalHandle[m[K : public ServerGoalHandleBase
+[12.033s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[12.034s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:83:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.034s]    83 |     void handle_accepted(std::shared_ptr<ServerGoalHandle<Nav[01;31m[K>>[m[K goal_handle){
+[12.034s]       |                                                              [01;31m[K^~[m[K
+[12.034s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:83:42:[m[K [01;31m[Kerror: [m[K‘[01m[KServerGoalHandle[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp_action::ServerGoalHandle[m[K’?
+[12.035s]    83 |     void handle_accepted(std::shared_ptr<[01;31m[KServerGoalHandle[m[K<Nav>> goal_handle){
+[12.035s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.035s]       |                                          [32m[Krclcpp_action::ServerGoalHandle[m[K
+[12.035s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+[12.036s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+[12.036s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[12.036s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[12.037s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp_action::ServerGoalHandle[m[K’ declared here
+[12.040s]   135 | class [01;36m[KServerGoalHandle[m[K : public ServerGoalHandleBase
+[12.040s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[12.041s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:83:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.041s]    83 |     void handle_accepted(std::shared_ptr<ServerGoalHandle<Nav[01;31m[K>>[m[K goal_handle){
+[12.041s]       |                                                              [01;31m[K^~[m[K
+[12.042s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:83:26:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[12.042s]    83 |     void handle_accepted([01;31m[Kstd[m[K::shared_ptr<ServerGoalHandle<Nav>> goal_handle){
+[12.042s]       |                          [01;31m[K^~~[m[K
+[12.042s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:83:42:[m[K [01;31m[Kerror: [m[K‘[01m[KServerGoalHandle[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp_action::ServerGoalHandle[m[K’?
+[12.043s]    83 |     void handle_accepted(std::shared_ptr<[01;31m[KServerGoalHandle[m[K<Nav>> goal_handle){
+[12.043s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.043s]       |                                          [32m[Krclcpp_action::ServerGoalHandle[m[K
+[12.044s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+[12.047s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+[12.048s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[12.052s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[12.053s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp_action::ServerGoalHandle[m[K’ declared here
+[12.054s]   135 | class [01;36m[KServerGoalHandle[m[K : public ServerGoalHandleBase
+[12.054s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[12.054s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:83:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[12.055s]    83 |     void handle_accepted(std::shared_ptr<ServerGoalHandle<Nav[01;31m[K>>[m[K goal_handle){
+[12.056s]       |                                                              [01;31m[K^~[m[K
+[12.056s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:83:26:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[12.056s]    83 |     void handle_accepted([01;31m[Kstd[m[K::shared_ptr<ServerGoalHandle<Nav>> goal_handle){
+[12.058s]       |                          [01;31m[K^~~[m[K
+[12.194s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In constructor ‘[01m[KExer04ActionServer::Exer04ActionServer()[m[K’:
+[12.195s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:45:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<base_interfaces_demo::action::Nav>(Exer04ActionServer*, const char [4], std::_Bind_helper<false, rclcpp_action::GoalResponse (Exer04ActionServer::*)(const int&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >), Exer04ActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (Exer04ActionServer::*)(...), Exer04ActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (Exer04ActionServer::*)(...), Exer04ActionServer*, const std::_Placeholder<1>&>::type)[m[K’
+[12.196s]    45 |         action_server_ = [01;31m[Krclcpp_action::create_server<Nav>([m[K
+[12.196s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.196s]    46 | [01;31m[K            this,[m[K
+[12.198s]       |             [01;31m[K~~~~~[m[K                                          
+[12.198s]    47 | [01;31m[K            "nav",[m[K
+[12.199s]       |             [01;31m[K~~~~~~[m[K                                         
+[12.199s]    48 | [01;31m[K            std::bind(&Exer04ActionServer::handle_goal,this,_1,_2),[m[K
+[12.199s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.200s]    49 | [01;31m[K            std::bind(&Exer04ActionServer::handle_cancel,this,_1),[m[K
+[12.200s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.200s]    50 | [01;31m[K            std::bind(&Exer04ActionServer::handle_accepted,this,_1)[m[K
+[12.201s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.202s]    51 | [01;31m[K            )[m[K;
+[12.202s]       |             [01;31m[K~[m[K                                              
+[12.203s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[12.204s]                  from [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[12.205s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr) [with ActionT = base_interfaces_demo::action::Nav; typename rclcpp_action::Server<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Server<base_interfaces_demo::action::Nav> >; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>; rclcpp::node_interfaces::NodeClockInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>; rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>; rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeWaitablesInterface>; std::string = std::__cxx11::basic_string<char>; typename rclcpp_action::Server<ActionT>::GoalCallback = std::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >)>; typename rclcpp_action::Server<ActionT>::CancelCallback = std::function<rclcpp_action::CancelResponse(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav> >)>; typename rclcpp_action::Server<ActionT>::AcceptedCallback = std::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav> >)>; rcl_action_server_options_t = rcl_action_server_options_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[12.206s]    58 | [01;36m[Kcreate_server[m[K(
+[12.206s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[12.216s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  candidate expects 10 arguments, 5 provided
+[12.218s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[12.218s]   132 | [01;36m[Kcreate_server[m[K(
+[12.219s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[12.220s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[12.220s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:48:22:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = rclcpp_action::GoalResponse (Exer04ActionServer::*)(const int&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >); _BoundArgs = {Exer04ActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind_helper<false, rclcpp_action::GoalResponse (Exer04ActionServer::*)(const int&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >), Exer04ActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type; std::__is_socketlike<_Func> = std::__is_socketlike<rclcpp_action::GoalResponse (Exer04ActionServer::*)(const int&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >), rclcpp_action::GoalResponse (Exer04ActionServer::*)(const int&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >)>; typename std::decay<_Tp>::type = rclcpp_action::GoalResponse (Exer04ActionServer::*)(const int&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >)](((Exer04ActionServer*)this), std::placeholders::_1, std::placeholders::_2)[m[K’ (type ‘[01m[Kstd::_Bind_helper<false, rclcpp_action::GoalResponse (Exer04ActionServer::*)(const int&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >), Exer04ActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type[m[K’) to type ‘[01m[Krclcpp_action::Server<base_interfaces_demo::action::Nav>::GoalCallback[m[K’ {aka ‘[01m[Kstd::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >)>[m[K’}
+[12.220s]    48 |             [01;36m[Kstd::bind(&Exer04ActionServer::handle_goal,this,_1,_2)[m[K,
+[12.220s]       |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.294s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse Exer04ActionServer::handle_cancel(...)[m[K’:
+[12.294s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:78:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+[12.295s]    78 |         (void)[01;31m[Kgoal_handle[m[K;
+[12.295s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[12.321s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In member function ‘[01m[Kvoid Exer04ActionServer::handle_accepted(...)[m[K’:
+[12.321s] [01m[K/home/ros2/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:85:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+[12.322s]    85 |         (void)[01;31m[Kgoal_handle[m[K;
+[12.322s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[22.882s] gmake[2]: *** [CMakeFiles/exer04_action_server.dir/build.make:76：CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o] 错误 1
+[22.883s] gmake[1]: *** [CMakeFiles/Makefile2:223：CMakeFiles/exer04_action_server.dir/all] 错误 2
+[22.883s] gmake: *** [Makefile:146：all] 错误 2
+[22.895s] Invoked command in '/home/ros2/ws01_plumbing/build/cpp07_exercise' returned '2': CMAKE_PREFIX_PATH=/home/ros2/ws01_plumbing/install/turtlesim:/home/ros2/ws01_plumbing/install/base_interfaces_demo:/home/ros2/ws01_plumbing/install/tutorails_plumbing:/home/ros2/ws01_plumbing/install/cpp07_exercise:/home/ros2/ws01_plumbing/install/cpp06_time:/home/ros2/ws01_plumbing/install/cpp05_names:/home/ros2/ws01_plumbing/install/cpp04_param:/home/ros2/ws01_plumbing/install/cpp03_action:/home/ros2/ws01_plumbing/install/cpp02_service:/home/ros2/ws01_plumbing/install/cpp01_topic:/home/ros2/ws01_plumbing/install/py06_time:/home/ros2/ws01_plumbing/install/py05_names:/home/ros2/ws01_plumbing/install/py04_param:/home/ros2/ws01_plumbing/install/py03_action:/home/ros2/ws01_plumbing/install/py02_service:/home/ros2/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws01_plumbing/build/cpp07_exercise -- -j4 -l4
