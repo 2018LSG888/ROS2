@@ -44,12 +44,14 @@ colcon build --packages-select pkg03_hellovscode_cpp //只编译pkg03功能包
 2)  ros2 topic echo /chatter
 
 -------------------
+
 2.2.2话题通信-订阅 C++
 1) colcon build --packages-select cpp01_topic
 
 2) ros2 run cpp01_topic demo02_listener_str 
 
 ===========================================
+
 2.2.3 话题通信-发布 python
 终端一
 1) colcon build --packages-select py01_topic
@@ -76,6 +78,7 @@ colcon build --packages-select pkg03_hellovscode_cpp //只编译pkg03功能包
 2) ros2 run cpp01_topic demo04_listener_stu
 
 ============= 服务通信 =========
+
 //创建cpp02_service 功能包 C++版本 ，依赖项和节点名字
 ros2 pkg create cpp02_service --build-type ament_cmake --dependencies rclcpp base_interfaces_demo --node-name demo01_server
 
