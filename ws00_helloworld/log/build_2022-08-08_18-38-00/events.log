@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000306] (-) JobUnselected: {'identifier': 'pkg02_helloworld_py'}
+[0.000366] (-) JobUnselected: {'identifier': 'pkg03_hellovscode_cpp'}
+[0.000388] (pkg01_helloworld_cpp) JobQueued: {'identifier': 'pkg01_helloworld_cpp', 'dependencies': OrderedDict()}
+[0.000409] (pkg01_helloworld_cpp) JobStarted: {'identifier': 'pkg01_helloworld_cpp'}
+[0.012713] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'cmake'}
+[0.045875] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'build'}
+[0.046077] (pkg01_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ws00_helloworld/build/pkg01_helloworld_cpp', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ws00_helloworld/build/pkg01_helloworld_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '863'), ('SYSTEMD_EXEC_PID', '1079'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22388'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:22019'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1040,unix/ros2VB:/tmp/.ICE-unix/1040'), ('INVOCATION_ID', '248e018100524b2ba81191cbc311164b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0ALSQ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cdec004dfd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws00_helloworld/build/pkg01_helloworld_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096514] (-) TimerEvent: {}
+[0.197016] (-) TimerEvent: {}
+[0.218519] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/helloworld.dir/src/helloworld.cpp.o\x1b[0m\n'}
+[0.297374] (-) TimerEvent: {}
+[0.398161] (-) TimerEvent: {}
+[0.498531] (-) TimerEvent: {}
+[0.599115] (-) TimerEvent: {}
+[0.699639] (-) TimerEvent: {}
+[0.800550] (-) TimerEvent: {}
+[0.901566] (-) TimerEvent: {}
+[1.002458] (-) TimerEvent: {}
+[1.103810] (-) TimerEvent: {}
+[1.204532] (-) TimerEvent: {}
+[1.305522] (-) TimerEvent: {}
+[1.406296] (-) TimerEvent: {}
+[1.507581] (-) TimerEvent: {}
+[1.608312] (-) TimerEvent: {}
+[1.709385] (-) TimerEvent: {}
+[1.810435] (-) TimerEvent: {}
+[1.911909] (-) TimerEvent: {}
+[2.012643] (-) TimerEvent: {}
+[2.114018] (-) TimerEvent: {}
+[2.214503] (-) TimerEvent: {}
+[2.315882] (-) TimerEvent: {}
+[2.416895] (-) TimerEvent: {}
+[2.518441] (-) TimerEvent: {}
+[2.620005] (-) TimerEvent: {}
+[2.721373] (-) TimerEvent: {}
+[2.822094] (-) TimerEvent: {}
+[2.923078] (-) TimerEvent: {}
+[3.023825] (-) TimerEvent: {}
+[3.124618] (-) TimerEvent: {}
+[3.225642] (-) TimerEvent: {}
+[3.326198] (-) TimerEvent: {}
+[3.427166] (-) TimerEvent: {}
+[3.528140] (-) TimerEvent: {}
+[3.628550] (-) TimerEvent: {}
+[3.729163] (-) TimerEvent: {}
+[3.830096] (-) TimerEvent: {}
+[3.931171] (-) TimerEvent: {}
+[4.031744] (-) TimerEvent: {}
+[4.132310] (-) TimerEvent: {}
+[4.233144] (-) TimerEvent: {}
+[4.335141] (-) TimerEvent: {}
+[4.435824] (-) TimerEvent: {}
+[4.536652] (-) TimerEvent: {}
+[4.637846] (-) TimerEvent: {}
+[4.738974] (-) TimerEvent: {}
+[4.839933] (-) TimerEvent: {}
+[4.940654] (-) TimerEvent: {}
+[5.041455] (-) TimerEvent: {}
+[5.142419] (-) TimerEvent: {}
+[5.242940] (-) TimerEvent: {}
+[5.343662] (-) TimerEvent: {}
+[5.444632] (-) TimerEvent: {}
+[5.545634] (-) TimerEvent: {}
+[5.646452] (-) TimerEvent: {}
+[5.747076] (-) TimerEvent: {}
+[5.848224] (-) TimerEvent: {}
+[5.949237] (-) TimerEvent: {}
+[6.050191] (-) TimerEvent: {}
+[6.151248] (-) TimerEvent: {}
+[6.252567] (-) TimerEvent: {}
+[6.353726] (-) TimerEvent: {}
+[6.454719] (-) TimerEvent: {}
+[6.555816] (-) TimerEvent: {}
+[6.657045] (-) TimerEvent: {}
+[6.757837] (-) TimerEvent: {}
+[6.859211] (-) TimerEvent: {}
+[6.960227] (-) TimerEvent: {}
+[7.061348] (-) TimerEvent: {}
+[7.162356] (-) TimerEvent: {}
+[7.263704] (-) TimerEvent: {}
+[7.364749] (-) TimerEvent: {}
+[7.466507] (-) TimerEvent: {}
+[7.567866] (-) TimerEvent: {}
+[7.668853] (-) TimerEvent: {}
+[7.769698] (-) TimerEvent: {}
+[7.870234] (-) TimerEvent: {}
+[7.971671] (-) TimerEvent: {}
+[8.072453] (-) TimerEvent: {}
+[8.091785] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable helloworld\x1b[0m\n'}
+[8.172908] (-) TimerEvent: {}
+[8.274030] (-) TimerEvent: {}
+[8.375079] (-) TimerEvent: {}
+[8.413871] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[100%] Built target helloworld\n'}
+[8.444392] (pkg01_helloworld_cpp) CommandEnded: {'returncode': 0}
+[8.475457] (-) TimerEvent: {}
+[8.561914] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'install'}
+[8.575922] (-) TimerEvent: {}
+[8.583658] (pkg01_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ws00_helloworld/build/pkg01_helloworld_cpp'], 'cwd': '/home/ros2/ws00_helloworld/build/pkg01_helloworld_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '863'), ('SYSTEMD_EXEC_PID', '1079'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22388'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:22019'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1040,unix/ros2VB:/tmp/.ICE-unix/1040'), ('INVOCATION_ID', '248e018100524b2ba81191cbc311164b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0ALSQ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cdec004dfd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws00_helloworld/build/pkg01_helloworld_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.604859] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.612155] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld\n'}
+[8.612814] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld" to ""\n'}
+[8.613195] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp\n'}
+[8.613334] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp\n'}
+[8.613766] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh\n'}
+[8.613974] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv\n'}
+[8.614116] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh\n'}
+[8.614668] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv\n'}
+[8.615238] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash\n'}
+[8.615983] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh\n'}
+[8.616201] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh\n'}
+[8.616484] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv\n'}
+[8.616872] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv\n'}
+[8.617838] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp\n'}
+[8.618060] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake\n'}
+[8.619645] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake\n'}
+[8.619953] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml\n'}
+[8.623574] (pkg01_helloworld_cpp) CommandEnded: {'returncode': 0}
+[8.676143] (-) TimerEvent: {}
+[8.776704] (-) TimerEvent: {}
+[8.822466] (pkg01_helloworld_cpp) JobEnded: {'identifier': 'pkg01_helloworld_cpp', 'rc': 0}
+[8.825051] (-) EventReactorShutdown: {}

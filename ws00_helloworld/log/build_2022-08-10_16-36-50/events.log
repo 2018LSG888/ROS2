@@ -1,0 +1,590 @@
+[0.000000] (-) TimerEvent: {}
+[0.012415] (-) JobUnselected: {'identifier': 'pkg01_helloworld_cpp'}
+[0.012554] (-) JobUnselected: {'identifier': 'pkg02_helloworld_py'}
+[0.012601] (-) JobUnselected: {'identifier': 'pkg03_hellovscode_cpp'}
+[0.012642] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.012685] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.060658] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.064407] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/ws00_helloworld/src/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/ros2/ws00_helloworld/install/turtlesim'], 'cwd': '/home/ros2/ws00_helloworld/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '866'), ('SYSTEMD_EXEC_PID', '1059'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7856'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:21796'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1027,unix/ros2VB:/tmp/.ICE-unix/1027'), ('INVOCATION_ID', '0611f68dd9ed466cba129e40128c5d54'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1OM4Q1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cdec004dfd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/ros2/ws00_helloworld/install/pkg02_helloworld_py:/home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws00_helloworld/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp:/home/ros2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[0.096703] (-) TimerEvent: {}
+[0.197859] (-) TimerEvent: {}
+[0.299227] (-) TimerEvent: {}
+[0.399996] (-) TimerEvent: {}
+[0.501704] (-) TimerEvent: {}
+[0.604084] (-) TimerEvent: {}
+[0.705775] (-) TimerEvent: {}
+[0.806991] (-) TimerEvent: {}
+[0.907791] (-) TimerEvent: {}
+[1.009155] (-) TimerEvent: {}
+[1.111306] (-) TimerEvent: {}
+[1.212168] (-) TimerEvent: {}
+[1.313298] (-) TimerEvent: {}
+[1.415112] (-) TimerEvent: {}
+[1.516268] (-) TimerEvent: {}
+[1.617585] (-) TimerEvent: {}
+[1.719257] (-) TimerEvent: {}
+[1.821714] (-) TimerEvent: {}
+[1.922624] (-) TimerEvent: {}
+[2.023909] (-) TimerEvent: {}
+[2.124924] (-) TimerEvent: {}
+[2.225645] (-) TimerEvent: {}
+[2.326608] (-) TimerEvent: {}
+[2.427957] (-) TimerEvent: {}
+[2.529143] (-) TimerEvent: {}
+[2.630230] (-) TimerEvent: {}
+[2.731983] (-) TimerEvent: {}
+[2.832895] (-) TimerEvent: {}
+[2.934086] (-) TimerEvent: {}
+[3.036105] (-) TimerEvent: {}
+[3.137497] (-) TimerEvent: {}
+[3.239259] (-) TimerEvent: {}
+[3.339992] (-) TimerEvent: {}
+[3.441733] (-) TimerEvent: {}
+[3.543812] (-) TimerEvent: {}
+[3.644623] (-) TimerEvent: {}
+[3.737433] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[3.744956] (-) TimerEvent: {}
+[3.845861] (-) TimerEvent: {}
+[3.947982] (-) TimerEvent: {}
+[4.049112] (-) TimerEvent: {}
+[4.149985] (-) TimerEvent: {}
+[4.251078] (-) TimerEvent: {}
+[4.352367] (-) TimerEvent: {}
+[4.453575] (-) TimerEvent: {}
+[4.554998] (-) TimerEvent: {}
+[4.655905] (-) TimerEvent: {}
+[4.757069] (-) TimerEvent: {}
+[4.858442] (-) TimerEvent: {}
+[4.959889] (-) TimerEvent: {}
+[5.060675] (-) TimerEvent: {}
+[5.161590] (-) TimerEvent: {}
+[5.262935] (-) TimerEvent: {}
+[5.363810] (-) TimerEvent: {}
+[5.465093] (-) TimerEvent: {}
+[5.531655] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[5.565584] (-) TimerEvent: {}
+[5.666509] (-) TimerEvent: {}
+[5.767608] (-) TimerEvent: {}
+[5.772844] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.868555] (-) TimerEvent: {}
+[5.970290] (-) TimerEvent: {}
+[6.071661] (-) TimerEvent: {}
+[6.172414] (-) TimerEvent: {}
+[6.274071] (-) TimerEvent: {}
+[6.376932] (-) TimerEvent: {}
+[6.479460] (-) TimerEvent: {}
+[6.531583] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.559431] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.564391] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.580098] (-) TimerEvent: {}
+[6.605806] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.627220] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.683105] (-) TimerEvent: {}
+[6.784418] (-) TimerEvent: {}
+[6.885235] (-) TimerEvent: {}
+[6.987064] (-) TimerEvent: {}
+[7.088036] (-) TimerEvent: {}
+[7.188817] (-) TimerEvent: {}
+[7.291282] (-) TimerEvent: {}
+[7.353444] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.384304] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.385151] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.386339] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.391686] (-) TimerEvent: {}
+[7.492607] (-) TimerEvent: {}
+[7.593635] (-) TimerEvent: {}
+[7.695224] (-) TimerEvent: {}
+[7.796135] (-) TimerEvent: {}
+[7.898197] (-) TimerEvent: {}
+[7.999884] (-) TimerEvent: {}
+[8.032007] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.100431] (-) TimerEvent: {}
+[8.201429] (-) TimerEvent: {}
+[8.302587] (-) TimerEvent: {}
+[8.403960] (-) TimerEvent: {}
+[8.505347] (-) TimerEvent: {}
+[8.606401] (-) TimerEvent: {}
+[8.711013] (-) TimerEvent: {}
+[8.812202] (-) TimerEvent: {}
+[8.913504] (-) TimerEvent: {}
+[9.015336] (-) TimerEvent: {}
+[9.116862] (-) TimerEvent: {}
+[9.119230] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter \n'}
+[9.217513] (-) TimerEvent: {}
+[9.319493] (-) TimerEvent: {}
+[9.420601] (-) TimerEvent: {}
+[9.521758] (-) TimerEvent: {}
+[9.623456] (-) TimerEvent: {}
+[9.724719] (-) TimerEvent: {}
+[9.825691] (-) TimerEvent: {}
+[9.926848] (-) TimerEvent: {}
+[10.027995] (-) TimerEvent: {}
+[10.129210] (-) TimerEvent: {}
+[10.230363] (-) TimerEvent: {}
+[10.331580] (-) TimerEvent: {}
+[10.432442] (-) TimerEvent: {}
+[10.533485] (-) TimerEvent: {}
+[10.635065] (-) TimerEvent: {}
+[10.736331] (-) TimerEvent: {}
+[10.837226] (-) TimerEvent: {}
+[10.938224] (-) TimerEvent: {}
+[10.941631] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[11.039052] (-) TimerEvent: {}
+[11.053249] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[11.139581] (-) TimerEvent: {}
+[11.240308] (-) TimerEvent: {}
+[11.341673] (-) TimerEvent: {}
+[11.443135] (-) TimerEvent: {}
+[11.543945] (-) TimerEvent: {}
+[11.644941] (-) TimerEvent: {}
+[11.746382] (-) TimerEvent: {}
+[11.848364] (-) TimerEvent: {}
+[11.949315] (-) TimerEvent: {}
+[12.050357] (-) TimerEvent: {}
+[12.151986] (-) TimerEvent: {}
+[12.203068] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.253107] (-) TimerEvent: {}
+[12.295868] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.353826] (-) TimerEvent: {}
+[12.419191] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.454507] (-) TimerEvent: {}
+[12.556013] (-) TimerEvent: {}
+[12.657056] (-) TimerEvent: {}
+[12.670301] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.758098] (-) TimerEvent: {}
+[12.859586] (-) TimerEvent: {}
+[12.958090] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.959941] (-) TimerEvent: {}
+[13.060771] (-) TimerEvent: {}
+[13.161969] (-) TimerEvent: {}
+[13.263317] (-) TimerEvent: {}
+[13.364643] (-) TimerEvent: {}
+[13.465743] (-) TimerEvent: {}
+[13.567051] (-) TimerEvent: {}
+[13.668304] (-) TimerEvent: {}
+[13.769217] (-) TimerEvent: {}
+[13.870496] (-) TimerEvent: {}
+[13.971772] (-) TimerEvent: {}
+[14.072828] (-) TimerEvent: {}
+[14.174168] (-) TimerEvent: {}
+[14.275496] (-) TimerEvent: {}
+[14.376719] (-) TimerEvent: {}
+[14.477844] (-) TimerEvent: {}
+[14.579235] (-) TimerEvent: {}
+[14.612161] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[14.679913] (-) TimerEvent: {}
+[14.780812] (-) TimerEvent: {}
+[14.881777] (-) TimerEvent: {}
+[14.982587] (-) TimerEvent: {}
+[15.084737] (-) TimerEvent: {}
+[15.185851] (-) TimerEvent: {}
+[15.286924] (-) TimerEvent: {}
+[15.388933] (-) TimerEvent: {}
+[15.490315] (-) TimerEvent: {}
+[15.592735] (-) TimerEvent: {}
+[15.693624] (-) TimerEvent: {}
+[15.713868] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[15.781268] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.794150] (-) TimerEvent: {}
+[15.896285] (-) TimerEvent: {}
+[15.996970] (-) TimerEvent: {}
+[16.097992] (-) TimerEvent: {}
+[16.198971] (-) TimerEvent: {}
+[16.299919] (-) TimerEvent: {}
+[16.401072] (-) TimerEvent: {}
+[16.502420] (-) TimerEvent: {}
+[16.603915] (-) TimerEvent: {}
+[16.705701] (-) TimerEvent: {}
+[16.808394] (-) TimerEvent: {}
+[16.909241] (-) TimerEvent: {}
+[17.010439] (-) TimerEvent: {}
+[17.113131] (-) TimerEvent: {}
+[17.214453] (-) TimerEvent: {}
+[17.316048] (-) TimerEvent: {}
+[17.339373] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[17.417028] (-) TimerEvent: {}
+[17.518354] (-) TimerEvent: {}
+[17.542285] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[17.618746] (-) TimerEvent: {}
+[17.719434] (-) TimerEvent: {}
+[17.753383] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.820749] (-) TimerEvent: {}
+[17.921463] (-) TimerEvent: {}
+[18.022807] (-) TimerEvent: {}
+[18.123573] (-) TimerEvent: {}
+[18.224440] (-) TimerEvent: {}
+[18.325292] (-) TimerEvent: {}
+[18.426077] (-) TimerEvent: {}
+[18.526940] (-) TimerEvent: {}
+[18.628118] (-) TimerEvent: {}
+[18.712940] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[18.728633] (-) TimerEvent: {}
+[18.829691] (-) TimerEvent: {}
+[18.930554] (-) TimerEvent: {}
+[19.032176] (-) TimerEvent: {}
+[19.133160] (-) TimerEvent: {}
+[19.234183] (-) TimerEvent: {}
+[19.335252] (-) TimerEvent: {}
+[19.436278] (-) TimerEvent: {}
+[19.537971] (-) TimerEvent: {}
+[19.639917] (-) TimerEvent: {}
+[19.668365] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[19.740333] (-) TimerEvent: {}
+[19.841088] (-) TimerEvent: {}
+[19.868286] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[19.941608] (-) TimerEvent: {}
+[20.042458] (-) TimerEvent: {}
+[20.143314] (-) TimerEvent: {}
+[20.244136] (-) TimerEvent: {}
+[20.344841] (-) TimerEvent: {}
+[20.455313] (-) TimerEvent: {}
+[20.556364] (-) TimerEvent: {}
+[20.657494] (-) TimerEvent: {}
+[20.758401] (-) TimerEvent: {}
+[20.860291] (-) TimerEvent: {}
+[20.961212] (-) TimerEvent: {}
+[21.062859] (-) TimerEvent: {}
+[21.163767] (-) TimerEvent: {}
+[21.264770] (-) TimerEvent: {}
+[21.366109] (-) TimerEvent: {}
+[21.467499] (-) TimerEvent: {}
+[21.568430] (-) TimerEvent: {}
+[21.669307] (-) TimerEvent: {}
+[21.770077] (-) TimerEvent: {}
+[21.870919] (-) TimerEvent: {}
+[21.971727] (-) TimerEvent: {}
+[22.073024] (-) TimerEvent: {}
+[22.174005] (-) TimerEvent: {}
+[22.204604] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[22.274978] (-) TimerEvent: {}
+[22.375838] (-) TimerEvent: {}
+[22.477254] (-) TimerEvent: {}
+[22.579409] (-) TimerEvent: {}
+[22.680632] (-) TimerEvent: {}
+[22.783237] (-) TimerEvent: {}
+[22.884046] (-) TimerEvent: {}
+[22.984939] (-) TimerEvent: {}
+[23.086049] (-) TimerEvent: {}
+[23.187433] (-) TimerEvent: {}
+[23.295320] (-) TimerEvent: {}
+[23.396380] (-) TimerEvent: {}
+[23.502341] (-) TimerEvent: {}
+[23.604538] (-) TimerEvent: {}
+[23.705818] (-) TimerEvent: {}
+[23.810452] (-) TimerEvent: {}
+[23.923074] (-) TimerEvent: {}
+[24.012124] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[24.023507] (-) TimerEvent: {}
+[24.124212] (-) TimerEvent: {}
+[24.225494] (-) TimerEvent: {}
+[24.327886] (-) TimerEvent: {}
+[24.429011] (-) TimerEvent: {}
+[24.529643] (-) TimerEvent: {}
+[24.630274] (-) TimerEvent: {}
+[24.731194] (-) TimerEvent: {}
+[24.747218] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[24.831449] (-) TimerEvent: {}
+[24.868249] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.4", minimum required is "3.6") \n'}
+[24.915235] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[24.931842] (-) TimerEvent: {}
+[25.032985] (-) TimerEvent: {}
+[25.134262] (-) TimerEvent: {}
+[25.190631] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.4", minimum required is "3.5") \n'}
+[25.192323] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[25.192881] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[25.193118] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[25.234735] (-) TimerEvent: {}
+[25.285545] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[25.336866] (-) TimerEvent: {}
+[25.438159] (-) TimerEvent: {}
+[25.539677] (-) TimerEvent: {}
+[25.640667] (-) TimerEvent: {}
+[25.741974] (-) TimerEvent: {}
+[25.765318] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[25.842633] (-) TimerEvent: {}
+[25.944275] (-) TimerEvent: {}
+[26.046579] (-) TimerEvent: {}
+[26.143820] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[26.147042] (-) TimerEvent: {}
+[26.160402] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/ws00_helloworld/build/turtlesim\n'}
+[26.230260] (turtlesim) CommandEnded: {'returncode': 0}
+[26.232804] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[26.233190] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ws00_helloworld/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ws00_helloworld/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '866'), ('SYSTEMD_EXEC_PID', '1059'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7856'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:21796'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1027,unix/ros2VB:/tmp/.ICE-unix/1027'), ('INVOCATION_ID', '0611f68dd9ed466cba129e40128c5d54'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1OM4Q1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cdec004dfd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/ros2/ws00_helloworld/install/pkg02_helloworld_py:/home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws00_helloworld/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp:/home/ros2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[26.247432] (-) TimerEvent: {}
+[26.349833] (-) TimerEvent: {}
+[26.450950] (-) TimerEvent: {}
+[26.548703] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[26.551404] (-) TimerEvent: {}
+[26.655843] (-) TimerEvent: {}
+[26.756857] (-) TimerEvent: {}
+[26.857739] (-) TimerEvent: {}
+[26.958868] (-) TimerEvent: {}
+[27.060327] (-) TimerEvent: {}
+[27.161752] (-) TimerEvent: {}
+[27.262850] (-) TimerEvent: {}
+[27.363668] (-) TimerEvent: {}
+[27.464502] (-) TimerEvent: {}
+[27.569262] (-) TimerEvent: {}
+[27.670545] (-) TimerEvent: {}
+[27.771748] (-) TimerEvent: {}
+[27.872438] (-) TimerEvent: {}
+[27.973299] (-) TimerEvent: {}
+[28.074948] (-) TimerEvent: {}
+[28.177289] (-) TimerEvent: {}
+[28.279800] (-) TimerEvent: {}
+[28.381684] (-) TimerEvent: {}
+[28.482959] (-) TimerEvent: {}
+[28.584145] (-) TimerEvent: {}
+[28.685449] (-) TimerEvent: {}
+[28.786497] (-) TimerEvent: {}
+[28.887875] (-) TimerEvent: {}
+[28.988822] (-) TimerEvent: {}
+[29.090044] (-) TimerEvent: {}
+[29.191013] (-) TimerEvent: {}
+[29.292195] (-) TimerEvent: {}
+[29.393194] (-) TimerEvent: {}
+[29.494350] (-) TimerEvent: {}
+[29.596041] (-) TimerEvent: {}
+[29.697181] (-) TimerEvent: {}
+[29.797899] (-) TimerEvent: {}
+[29.899160] (-) TimerEvent: {}
+[30.000076] (-) TimerEvent: {}
+[30.101124] (-) TimerEvent: {}
+[30.201923] (-) TimerEvent: {}
+[30.303665] (-) TimerEvent: {}
+[30.408067] (-) TimerEvent: {}
+[30.509503] (-) TimerEvent: {}
+[30.610260] (-) TimerEvent: {}
+[30.711953] (-) TimerEvent: {}
+[30.813040] (-) TimerEvent: {}
+[30.914245] (-) TimerEvent: {}
+[31.015232] (-) TimerEvent: {}
+[31.116286] (-) TimerEvent: {}
+[31.217764] (-) TimerEvent: {}
+[31.319546] (-) TimerEvent: {}
+[31.356597] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[31.420082] (-) TimerEvent: {}
+[31.510369] (turtlesim) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_turtlesim\n'}
+[31.521139] (-) TimerEvent: {}
+[31.558129] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[31.621704] (-) TimerEvent: {}
+[31.723091] (-) TimerEvent: {}
+[31.824836] (-) TimerEvent: {}
+[31.927160] (-) TimerEvent: {}
+[32.027705] (-) TimerEvent: {}
+[32.128718] (-) TimerEvent: {}
+[32.230106] (-) TimerEvent: {}
+[32.332108] (-) TimerEvent: {}
+[32.433117] (-) TimerEvent: {}
+[32.534263] (-) TimerEvent: {}
+[32.635618] (-) TimerEvent: {}
+[32.736593] (-) TimerEvent: {}
+[32.837584] (-) TimerEvent: {}
+[32.938293] (-) TimerEvent: {}
+[33.038868] (-) TimerEvent: {}
+[33.140490] (-) TimerEvent: {}
+[33.241829] (-) TimerEvent: {}
+[33.343214] (-) TimerEvent: {}
+[33.444256] (-) TimerEvent: {}
+[33.545278] (-) TimerEvent: {}
+[33.646199] (-) TimerEvent: {}
+[33.747892] (-) TimerEvent: {}
+[33.848864] (-) TimerEvent: {}
+[33.950116] (-) TimerEvent: {}
+[34.051761] (-) TimerEvent: {}
+[34.152896] (-) TimerEvent: {}
+[34.253755] (-) TimerEvent: {}
+[34.355117] (-) TimerEvent: {}
+[34.455850] (-) TimerEvent: {}
+[34.556834] (-) TimerEvent: {}
+[34.657557] (-) TimerEvent: {}
+[34.758615] (-) TimerEvent: {}
+[34.860574] (-) TimerEvent: {}
+[34.961526] (-) TimerEvent: {}
+[35.063176] (-) TimerEvent: {}
+[35.164495] (-) TimerEvent: {}
+[35.187000] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[35.265295] (-) TimerEvent: {}
+[35.366275] (-) TimerEvent: {}
+[35.468479] (-) TimerEvent: {}
+[35.569791] (-) TimerEvent: {}
+[35.671182] (-) TimerEvent: {}
+[35.772711] (-) TimerEvent: {}
+[35.873813] (-) TimerEvent: {}
+[35.974546] (-) TimerEvent: {}
+[36.076046] (-) TimerEvent: {}
+[36.177316] (-) TimerEvent: {}
+[36.278429] (-) TimerEvent: {}
+[36.379823] (-) TimerEvent: {}
+[36.480961] (-) TimerEvent: {}
+[36.581839] (-) TimerEvent: {}
+[36.683107] (-) TimerEvent: {}
+[36.785009] (-) TimerEvent: {}
+[36.886383] (-) TimerEvent: {}
+[36.987979] (-) TimerEvent: {}
+[37.089410] (-) TimerEvent: {}
+[37.190477] (-) TimerEvent: {}
+[37.292076] (-) TimerEvent: {}
+[37.393171] (-) TimerEvent: {}
+[37.494168] (-) TimerEvent: {}
+[37.595097] (-) TimerEvent: {}
+[37.697075] (-) TimerEvent: {}
+[37.798329] (-) TimerEvent: {}
+[37.899266] (-) TimerEvent: {}
+[38.000199] (-) TimerEvent: {}
+[38.101322] (-) TimerEvent: {}
+[38.203668] (-) TimerEvent: {}
+[38.304867] (-) TimerEvent: {}
+[38.406547] (-) TimerEvent: {}
+[38.508121] (-) TimerEvent: {}
+[38.610175] (-) TimerEvent: {}
+[38.712697] (-) TimerEvent: {}
+[38.813409] (-) TimerEvent: {}
+[38.916289] (-) TimerEvent: {}
+[39.017833] (-) TimerEvent: {}
+[39.118957] (-) TimerEvent: {}
+[39.219940] (-) TimerEvent: {}
+[39.321046] (-) TimerEvent: {}
+[39.422219] (-) TimerEvent: {}
+[39.522961] (-) TimerEvent: {}
+[39.623864] (-) TimerEvent: {}
+[39.724909] (-) TimerEvent: {}
+[39.825821] (-) TimerEvent: {}
+[39.927238] (-) TimerEvent: {}
+[40.027964] (-) TimerEvent: {}
+[40.129165] (-) TimerEvent: {}
+[40.230046] (-) TimerEvent: {}
+[40.330872] (-) TimerEvent: {}
+[40.431770] (-) TimerEvent: {}
+[40.532748] (-) TimerEvent: {}
+[40.633774] (-) TimerEvent: {}
+[40.735148] (-) TimerEvent: {}
+[40.835926] (-) TimerEvent: {}
+[40.937251] (-) TimerEvent: {}
+[41.038246] (-) TimerEvent: {}
+[41.140502] (-) TimerEvent: {}
+[41.241600] (-) TimerEvent: {}
+[41.328943] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[41.342411] (-) TimerEvent: {}
+[41.444255] (-) TimerEvent: {}
+[41.545405] (-) TimerEvent: {}
+[41.646248] (-) TimerEvent: {}
+[41.747105] (-) TimerEvent: {}
+[41.848341] (-) TimerEvent: {}
+[41.949556] (-) TimerEvent: {}
+[42.050638] (-) TimerEvent: {}
+[42.152002] (-) TimerEvent: {}
+[42.253285] (-) TimerEvent: {}
+[42.354609] (-) TimerEvent: {}
+[42.456043] (-) TimerEvent: {}
+[42.557245] (-) TimerEvent: {}
+[42.658189] (-) TimerEvent: {}
+[42.759271] (-) TimerEvent: {}
+[42.860495] (-) TimerEvent: {}
+[42.961816] (-) TimerEvent: {}
+[43.063353] (-) TimerEvent: {}
+[43.164208] (-) TimerEvent: {}
+[43.265190] (-) TimerEvent: {}
+[43.367540] (-) TimerEvent: {}
+[43.469109] (-) TimerEvent: {}
+[43.570470] (-) TimerEvent: {}
+[43.672249] (-) TimerEvent: {}
+[43.773277] (-) TimerEvent: {}
+[43.874061] (-) TimerEvent: {}
+[43.875889] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[43.974451] (-) TimerEvent: {}
+[44.075619] (-) TimerEvent: {}
+[44.177763] (-) TimerEvent: {}
+[44.279054] (-) TimerEvent: {}
+[44.380415] (-) TimerEvent: {}
+[44.481476] (-) TimerEvent: {}
+[44.582618] (-) TimerEvent: {}
+[44.684350] (-) TimerEvent: {}
+[44.785664] (-) TimerEvent: {}
+[44.887117] (-) TimerEvent: {}
+[44.987974] (-) TimerEvent: {}
+[45.089072] (-) TimerEvent: {}
+[45.190037] (-) TimerEvent: {}
+[45.291134] (-) TimerEvent: {}
+[45.392645] (-) TimerEvent: {}
+[45.493753] (-) TimerEvent: {}
+[45.594775] (-) TimerEvent: {}
+[45.638157] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[45.695224] (-) TimerEvent: {}
+[45.796155] (-) TimerEvent: {}
+[45.897853] (-) TimerEvent: {}
+[45.999094] (-) TimerEvent: {}
+[46.100055] (-) TimerEvent: {}
+[46.201242] (-) TimerEvent: {}
+[46.302582] (-) TimerEvent: {}
+[46.404554] (-) TimerEvent: {}
+[46.506328] (-) TimerEvent: {}
+[46.608154] (-) TimerEvent: {}
+[46.710050] (-) TimerEvent: {}
+[46.812248] (-) TimerEvent: {}
+[46.913671] (-) TimerEvent: {}
+[47.014881] (-) TimerEvent: {}
+[47.116135] (-) TimerEvent: {}
+[47.217053] (-) TimerEvent: {}
+[47.317829] (-) TimerEvent: {}
+[47.354538] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[47.418427] (-) TimerEvent: {}
+[47.519922] (-) TimerEvent: {}
+[47.622305] (-) TimerEvent: {}
+[47.725120] (-) TimerEvent: {}
+[47.826259] (-) TimerEvent: {}
+[47.927801] (-) TimerEvent: {}
+[48.028915] (-) TimerEvent: {}
+[48.129918] (-) TimerEvent: {}
+[48.231202] (-) TimerEvent: {}
+[48.332918] (-) TimerEvent: {}
+[48.434329] (-) TimerEvent: {}
+[48.536114] (-) TimerEvent: {}
+[48.636934] (-) TimerEvent: {}
+[48.737997] (-) TimerEvent: {}
+[48.839159] (-) TimerEvent: {}
+[48.906144] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[48.939668] (-) TimerEvent: {}
+[49.041109] (-) TimerEvent: {}
+[49.143078] (-) TimerEvent: {}
+[49.244008] (-) TimerEvent: {}
+[49.345065] (-) TimerEvent: {}
+[49.446312] (-) TimerEvent: {}
+[49.547707] (-) TimerEvent: {}
+[49.648946] (-) TimerEvent: {}
+[49.750281] (-) TimerEvent: {}
+[49.851046] (-) TimerEvent: {}
+[49.951911] (-) TimerEvent: {}
+[50.053348] (-) TimerEvent: {}
+[50.154495] (-) TimerEvent: {}
+[50.255952] (-) TimerEvent: {}
+[50.356554] (-) TimerEvent: {}
+[50.392647] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[50.457357] (-) TimerEvent: {}
+[50.553649] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/build.make:231: CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o] \xe4\xb8\xad\xe6\x96\xad\n'}
+[50.555691] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:299: CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/all] \xe4\xb8\xad\xe6\x96\xad\n'}
+[50.556008] (turtlesim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe4\xb8\xad\xe6\x96\xad\n'}
+[50.557515] (-) TimerEvent: {}
+[50.565356] (turtlesim) CommandEnded: {'returncode': -2}
+[50.659241] (-) TimerEvent: {}
+[50.760347] (-) TimerEvent: {}
+[50.861149] (-) TimerEvent: {}
+[50.962368] (-) TimerEvent: {}
+[51.063740] (-) TimerEvent: {}
+[51.164362] (-) TimerEvent: {}
+[51.265449] (-) TimerEvent: {}
+[51.366337] (-) TimerEvent: {}
+[51.467523] (-) TimerEvent: {}
+[51.568514] (-) TimerEvent: {}
+[51.669526] (-) TimerEvent: {}
+[51.770438] (-) TimerEvent: {}
+[51.871645] (-) TimerEvent: {}
+[51.972412] (-) TimerEvent: {}
+[52.074558] (-) TimerEvent: {}
+[52.177005] (-) TimerEvent: {}
+[52.278501] (-) TimerEvent: {}
+[52.381584] (-) TimerEvent: {}
+[52.483551] (-) TimerEvent: {}
+[52.572511] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 'SIGINT'}
+[52.583882] (-) TimerEvent: {}
+[52.585861] (-) EventReactorShutdown: {}

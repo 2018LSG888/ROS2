@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.002410] (-) JobUnselected: {'identifier': 'pkg01_helloworld_cpp'}
+[0.002635] (-) JobUnselected: {'identifier': 'pkg02_helloworld_py'}
+[0.002754] (pkg03_hellovscode_cpp) JobQueued: {'identifier': 'pkg03_hellovscode_cpp', 'dependencies': OrderedDict()}
+[0.002800] (pkg03_hellovscode_cpp) JobStarted: {'identifier': 'pkg03_hellovscode_cpp'}
+[0.051078] (pkg03_hellovscode_cpp) JobProgress: {'identifier': 'pkg03_hellovscode_cpp', 'progress': 'cmake'}
+[0.069700] (pkg03_hellovscode_cpp) JobProgress: {'identifier': 'pkg03_hellovscode_cpp', 'progress': 'build'}
+[0.070058] (pkg03_hellovscode_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ws00_helloworld/build/pkg03_hellovscode_cpp', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ws00_helloworld/build/pkg03_hellovscode_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2/ws00_helloworld/src'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1374'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1040,unix/ros2VB:/tmp/.ICE-unix/1040'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47ab4714_89db_4173_823b_967edf579a5e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0ALSQ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cdec004dfd.sock'), ('GNOME_TERMINAL_SERVICE', ':1.266'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/ros2/ws00_helloworld/install/pkg02_helloworld_py:/home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws00_helloworld/build/pkg03_hellovscode_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp:/home/ros2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[0.100555] (-) TimerEvent: {}
+[0.203042] (-) TimerEvent: {}
+[0.219108] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hellovscode\x1b[0m\n'}
+[0.274029] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hellovscode.dir/src/hellovscode.cpp.o\x1b[0m\n'}
+[0.303740] (-) TimerEvent: {}
+[0.405330] (-) TimerEvent: {}
+[0.506790] (-) TimerEvent: {}
+[0.607669] (-) TimerEvent: {}
+[0.709611] (-) TimerEvent: {}
+[0.811635] (-) TimerEvent: {}
+[0.912302] (-) TimerEvent: {}
+[1.013388] (-) TimerEvent: {}
+[1.114400] (-) TimerEvent: {}
+[1.217699] (-) TimerEvent: {}
+[1.318962] (-) TimerEvent: {}
+[1.420046] (-) TimerEvent: {}
+[1.521394] (-) TimerEvent: {}
+[1.622431] (-) TimerEvent: {}
+[1.723499] (-) TimerEvent: {}
+[1.824282] (-) TimerEvent: {}
+[1.926575] (-) TimerEvent: {}
+[2.028007] (-) TimerEvent: {}
+[2.129376] (-) TimerEvent: {}
+[2.230258] (-) TimerEvent: {}
+[2.331386] (-) TimerEvent: {}
+[2.432537] (-) TimerEvent: {}
+[2.533688] (-) TimerEvent: {}
+[2.634595] (-) TimerEvent: {}
+[2.735667] (-) TimerEvent: {}
+[2.836810] (-) TimerEvent: {}
+[2.938083] (-) TimerEvent: {}
+[3.039430] (-) TimerEvent: {}
+[3.140452] (-) TimerEvent: {}
+[3.241477] (-) TimerEvent: {}
+[3.342263] (-) TimerEvent: {}
+[3.445271] (-) TimerEvent: {}
+[3.546089] (-) TimerEvent: {}
+[3.647319] (-) TimerEvent: {}
+[3.749059] (-) TimerEvent: {}
+[3.850387] (-) TimerEvent: {}
+[3.951596] (-) TimerEvent: {}
+[4.052618] (-) TimerEvent: {}
+[4.153172] (-) TimerEvent: {}
+[4.254628] (-) TimerEvent: {}
+[4.355625] (-) TimerEvent: {}
+[4.456622] (-) TimerEvent: {}
+[4.557752] (-) TimerEvent: {}
+[4.658842] (-) TimerEvent: {}
+[4.759706] (-) TimerEvent: {}
+[4.861255] (-) TimerEvent: {}
+[4.962379] (-) TimerEvent: {}
+[5.063123] (-) TimerEvent: {}
+[5.164073] (-) TimerEvent: {}
+[5.265851] (-) TimerEvent: {}
+[5.366925] (-) TimerEvent: {}
+[5.468138] (-) TimerEvent: {}
+[5.569341] (-) TimerEvent: {}
+[5.670182] (-) TimerEvent: {}
+[5.771722] (-) TimerEvent: {}
+[5.874074] (-) TimerEvent: {}
+[5.975117] (-) TimerEvent: {}
+[6.076534] (-) TimerEvent: {}
+[6.178669] (-) TimerEvent: {}
+[6.279613] (-) TimerEvent: {}
+[6.381327] (-) TimerEvent: {}
+[6.483144] (-) TimerEvent: {}
+[6.584230] (-) TimerEvent: {}
+[6.685388] (-) TimerEvent: {}
+[6.786323] (-) TimerEvent: {}
+[6.887249] (-) TimerEvent: {}
+[6.987920] (-) TimerEvent: {}
+[7.089787] (-) TimerEvent: {}
+[7.190790] (-) TimerEvent: {}
+[7.291804] (-) TimerEvent: {}
+[7.392992] (-) TimerEvent: {}
+[7.493943] (-) TimerEvent: {}
+[7.594977] (-) TimerEvent: {}
+[7.695861] (-) TimerEvent: {}
+[7.797170] (-) TimerEvent: {}
+[7.898425] (-) TimerEvent: {}
+[7.999939] (-) TimerEvent: {}
+[8.101754] (-) TimerEvent: {}
+[8.203131] (-) TimerEvent: {}
+[8.304004] (-) TimerEvent: {}
+[8.405370] (-) TimerEvent: {}
+[8.506517] (-) TimerEvent: {}
+[8.607406] (-) TimerEvent: {}
+[8.709306] (-) TimerEvent: {}
+[8.810630] (-) TimerEvent: {}
+[8.911841] (-) TimerEvent: {}
+[9.012815] (-) TimerEvent: {}
+[9.114219] (-) TimerEvent: {}
+[9.215288] (-) TimerEvent: {}
+[9.316465] (-) TimerEvent: {}
+[9.418348] (-) TimerEvent: {}
+[9.519438] (-) TimerEvent: {}
+[9.620573] (-) TimerEvent: {}
+[9.722178] (-) TimerEvent: {}
+[9.822946] (-) TimerEvent: {}
+[9.923786] (-) TimerEvent: {}
+[10.029510] (-) TimerEvent: {}
+[10.130282] (-) TimerEvent: {}
+[10.231779] (-) TimerEvent: {}
+[10.332642] (-) TimerEvent: {}
+[10.437554] (-) TimerEvent: {}
+[10.538420] (-) TimerEvent: {}
+[10.639615] (-) TimerEvent: {}
+[10.741338] (-) TimerEvent: {}
+[10.842631] (-) TimerEvent: {}
+[10.945633] (-) TimerEvent: {}
+[11.047216] (-) TimerEvent: {}
+[11.106594] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hellovscode\x1b[0m\n'}
+[11.149394] (-) TimerEvent: {}
+[11.250597] (-) TimerEvent: {}
+[11.351770] (-) TimerEvent: {}
+[11.453080] (-) TimerEvent: {}
+[11.513172] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'[100%] Built target hellovscode\n'}
+[11.556638] (-) TimerEvent: {}
+[11.563131] (pkg03_hellovscode_cpp) CommandEnded: {'returncode': 0}
+[11.657134] (-) TimerEvent: {}
+[11.709466] (pkg03_hellovscode_cpp) JobProgress: {'identifier': 'pkg03_hellovscode_cpp', 'progress': 'install'}
+[11.737524] (pkg03_hellovscode_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ws00_helloworld/build/pkg03_hellovscode_cpp'], 'cwd': '/home/ros2/ws00_helloworld/build/pkg03_hellovscode_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2/ws00_helloworld/src'), ('TERM_PROGRAM_VERSION', '1.70.0'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1374'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2VB:@/tmp/.ICE-unix/1040,unix/ros2VB:/tmp/.ICE-unix/1040'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47ab4714_89db_4173_823b_967edf579a5e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0ALSQ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cdec004dfd.sock'), ('GNOME_TERMINAL_SERVICE', ':1.266'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/ros2/ws00_helloworld/install/pkg02_helloworld_py:/home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ws00_helloworld/build/pkg03_hellovscode_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/ros2/ws00_helloworld/install/pkg01_helloworld_cpp:/home/ros2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[11.758011] (-) TimerEvent: {}
+[11.758811] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.759320] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Installing: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/lib/pkg03_hellovscode_cpp/hellovscode\n'}
+[11.761161] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/lib/pkg03_hellovscode_cpp/hellovscode" to ""\n'}
+[11.761711] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/package_run_dependencies/pkg03_hellovscode_cpp\n'}
+[11.762205] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/parent_prefix_path/pkg03_hellovscode_cpp\n'}
+[11.762613] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/ament_prefix_path.sh\n'}
+[11.762752] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/ament_prefix_path.dsv\n'}
+[11.763171] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/path.sh\n'}
+[11.763589] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/path.dsv\n'}
+[11.763738] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.bash\n'}
+[11.765043] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.sh\n'}
+[11.765228] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.zsh\n'}
+[11.765355] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.dsv\n'}
+[11.765473] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Installing: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/package.dsv\n'}
+[11.765592] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/packages/pkg03_hellovscode_cpp\n'}
+[11.765925] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/cmake/pkg03_hellovscode_cppConfig.cmake\n'}
+[11.766082] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/cmake/pkg03_hellovscode_cppConfig-version.cmake\n'}
+[11.766203] (pkg03_hellovscode_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/package.xml\n'}
+[11.774749] (pkg03_hellovscode_cpp) CommandEnded: {'returncode': 0}
+[11.858710] (-) TimerEvent: {}
+[11.960235] (-) TimerEvent: {}
+[12.050887] (pkg03_hellovscode_cpp) JobEnded: {'identifier': 'pkg03_hellovscode_cpp', 'rc': 0}
+[12.053671] (-) EventReactorShutdown: {}
